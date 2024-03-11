@@ -1,0 +1,24 @@
+[ 2024-03-10 22:22:48,194 ] 139 root - INFO - Transformation run
+[ 2024-03-10 22:22:53,084 ] 31 root - INFO - Creating new features
+[ 2024-03-10 22:23:41,031 ] 35 root - INFO - New features created
+[ 2024-03-10 22:23:41,032 ] 37 root - INFO - Dropping columns
+[ 2024-03-10 22:23:41,243 ] 39 root - INFO - Dropped columns
+[ 2024-03-10 22:23:41,243 ] 41 root - INFO - Splitting input and target variables
+[ 2024-03-10 22:23:41,325 ] 44 root - INFO - Split successful
+[ 2024-03-10 22:23:41,325 ] 57 root - INFO - Encoding training feature ['type']
+[ 2024-03-10 22:23:41,325 ] 58 root - INFO - Scaling training features ['step', 'amount', 'dest_balance']
+[ 2024-03-10 22:23:41,326 ] 69 root - INFO - Resampling, and transformations completed
+[ 2024-03-10 22:23:41,326 ] 82 root - INFO - Encoding test feature ['type']
+[ 2024-03-10 22:23:41,326 ] 83 root - INFO - Scaling test features ['step', 'amount', 'dest_balance']
+[ 2024-03-10 22:23:41,326 ] 101 root - INFO - Creating transform object
+[ 2024-03-10 22:23:41,326 ] 57 root - INFO - Encoding training feature ['type']
+[ 2024-03-10 22:23:41,326 ] 58 root - INFO - Scaling training features ['step', 'amount', 'dest_balance']
+[ 2024-03-10 22:23:41,326 ] 69 root - INFO - Resampling, and transformations completed
+[ 2024-03-10 22:23:41,326 ] 82 root - INFO - Encoding test feature ['type']
+[ 2024-03-10 22:23:41,326 ] 83 root - INFO - Scaling test features ['step', 'amount', 'dest_balance']
+[ 2024-03-10 22:23:41,326 ] 104 root - INFO - object created
+[ 2024-03-10 22:23:41,326 ] 106 root - INFO - Loading train and test data
+[ 2024-03-10 22:23:47,176 ] 109 root - INFO - Loading complete
+[ 2024-03-10 22:23:47,176 ] 111 root - INFO - Applying transformation on training
+[ 2024-03-10 22:23:47,176 ] 128 root - INFO - Error occured while transformation application at: This 'Pipeline' has no attribute 'fit_transform'
+[ 2024-03-10 22:23:47,176 ] 146 root - INFO - Error ocures in run: Error occured in python script name [/Users/siddhant/Project2/Bank_functions/src/components/clean_data_module1.py] line number [112] error message[This 'Pipeline' has no attribute 'fit_transform']

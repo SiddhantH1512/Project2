@@ -1,0 +1,2 @@
+[ 2024-03-10 22:14:39,464 ] 139 root - INFO - Transformation run
+[ 2024-03-10 22:14:44,415 ] 146 root - INFO - Error ocures in run: InitiateDataTransformation.__init__() missing 1 required positional argument: 'dataframe'
