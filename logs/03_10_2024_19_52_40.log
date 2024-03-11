@@ -1,0 +1,10 @@
+[2024-03-10 19:52:41,447] 73 root - INFO - Running data ingestion
+[2024-03-10 19:52:41,447] 30 root - INFO - Pulling data from source
+[2024-03-10 19:52:47,547] 34 root - INFO - Data pulled into a dataframe
+[2024-03-10 19:52:47,548] 42 root - INFO - Dropping duplicates
+[2024-03-10 19:52:53,484] 46 root - INFO - Export dataframe to csv to specified location
+[2024-03-10 19:53:09,124] 49 root - INFO - Split data into train and test
+[2024-03-10 19:53:10,368] 52 root - INFO - Export train data to csv to specified location
+[2024-03-10 19:53:24,253] 55 root - INFO - Export test data to csv to specified location
+[2024-03-10 19:53:24,255] 67 root - INFO - The following error occured Cannot save file into a non-existent directory: 'p/Users/siddhant/Project2/Bank_functions/data/artifacts_module1'
+[2024-03-10 19:53:24,255] 78 root - INFO - Following error occured: Error occured in python script /Users/siddhant/Project2/Bank_functions/src/components/data_ingestion.py, at line number 56, Cannot save file into a non-existent directory: 'p/Users/siddhant/Project2/Bank_functions/data/artifacts_module1'

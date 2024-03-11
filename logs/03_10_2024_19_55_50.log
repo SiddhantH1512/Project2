@@ -1,0 +1,20 @@
+[2024-03-10 19:55:51,222] 73 root - INFO - Running data ingestion
+[2024-03-10 19:55:51,222] 30 root - INFO - Pulling data from source
+[2024-03-10 19:55:57,305] 34 root - INFO - Data pulled into a dataframe
+[2024-03-10 19:55:57,306] 42 root - INFO - Dropping duplicates
+[2024-03-10 19:56:03,213] 46 root - INFO - Export dataframe to csv to specified location
+[2024-03-10 19:56:19,109] 49 root - INFO - Split data into train and test
+[2024-03-10 19:56:20,484] 52 root - INFO - Export train data to csv to specified location
+[2024-03-10 19:56:34,306] 55 root - INFO - Export test data to csv to specified location
+[2024-03-10 19:56:37,896] 42 root - INFO - Dropping duplicates
+[2024-03-10 19:56:37,905] 46 root - INFO - Export dataframe to csv to specified location
+[2024-03-10 19:56:37,913] 49 root - INFO - Split data into train and test
+[2024-03-10 19:56:38,162] 52 root - INFO - Export train data to csv to specified location
+[2024-03-10 19:56:38,169] 55 root - INFO - Export test data to csv to specified location
+[2024-03-10 19:56:38,171] 42 root - INFO - Dropping duplicates
+[2024-03-10 19:56:38,175] 46 root - INFO - Export dataframe to csv to specified location
+[2024-03-10 19:56:38,202] 49 root - INFO - Split data into train and test
+[2024-03-10 19:56:38,203] 52 root - INFO - Export train data to csv to specified location
+[2024-03-10 19:56:38,225] 55 root - INFO - Export test data to csv to specified location
+[2024-03-10 19:56:38,230] 58 root - INFO - Data exported
+[2024-03-10 19:56:38,371] 76 root - INFO - Data ingested

@@ -1,0 +1,4 @@
+[2024-03-10 19:50:37,481] 73 root - INFO - Running data ingestion
+[2024-03-10 19:50:37,481] 30 root - INFO - Pulling data from source
+[2024-03-10 19:50:37,482] 67 root - INFO - The following error occured [Errno 2] No such file or directory: '/Users/siddhant/CustomerSatisfaction/project1/data/raw/Fraud.csv'
+[2024-03-10 19:50:37,482] 78 root - INFO - Following error occured: Error occured in python script /Users/siddhant/Project2/Bank_functions/src/components/data_ingestion.py, at line number 31, [Errno 2] No such file or directory: '/Users/siddhant/CustomerSatisfaction/project1/data/raw/Fraud.csv'

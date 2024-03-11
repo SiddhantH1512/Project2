@@ -11,7 +11,7 @@ from dataclasses import dataclass
 class DataIngestConfig:
     raw_data1: str=os.path.join("/Users/siddhant/Project2/Bank_functions/data/artifacts_module1", "raw_data.csv")
     train_data1: str=os.path.join("/Users/siddhant/Project2/Bank_functions/data/artifacts_module1", "train.csv")
-    test_data1: str=os.path.join("p/Users/siddhant/Project2/Bank_functions/data/artifacts_module1", "test.csv")
+    test_data1: str=os.path.join("/Users/siddhant/Project2/Bank_functions/data/artifacts_module1", "test.csv")
     
     raw_data2: str=os.path.join("/Users/siddhant/Project2/Bank_functions/data/artifacts_module2", "raw_data.csv")
     train_data2: str=os.path.join("/Users/siddhant/Project2/Bank_functions/data/artifacts_module2", "train.csv")
@@ -28,9 +28,9 @@ class InitialiseIngestion:
     def startingest(self):
         try:
             logging.info("Pulling data from source")
-            df1 = pd.read_csv('/Users/siddhant/CustomerSatisfaction/project1/data/raw/Fraud.csv')
-            df2 = pd.read_csv('/Users/siddhant/CustomerSatisfaction/project1/data/raw/loan.csv')
-            df3 = pd.read_csv('/Users/siddhant/CustomerSatisfaction/project1/data/raw/churn.csv')
+            df1 = pd.read_csv('/Users/siddhant/Project2/Bank_functions/data/raw/Fraud.csv')
+            df2 = pd.read_csv('/Users/siddhant/Project2/Bank_functions/data/raw/loan.csv')
+            df3 = pd.read_csv('/Users/siddhant/Project2/Bank_functions/data/raw/churn.csv')
             logging.info("Data pulled into a dataframe")
             
             for df, raw_path, train_path, test_path in zip(
