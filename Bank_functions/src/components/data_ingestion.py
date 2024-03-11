@@ -9,17 +9,17 @@ from dataclasses import dataclass
 
 @dataclass
 class DataIngestConfig:
-    raw_data1: str=os.path.join("project1/data/artifacts_module1", "raw_data.csv")
-    train_data1: str=os.path.join("project1/data/artifacts_module1", "train.csv")
-    test_data1: str=os.path.join("project1/data/artifacts_module1", "test.csv")
+    raw_data1: str=os.path.join("/Users/siddhant/Project2/Bank_functions/data/artifacts_module1", "raw_data.csv")
+    train_data1: str=os.path.join("/Users/siddhant/Project2/Bank_functions/data/artifacts_module1", "train.csv")
+    test_data1: str=os.path.join("p/Users/siddhant/Project2/Bank_functions/data/artifacts_module1", "test.csv")
     
-    raw_data2: str=os.path.join("project1/data/artifacts_module2", "raw_data.csv")
-    train_data2: str=os.path.join("project1/data/artifacts_module2", "train.csv")
-    test_data2: str=os.path.join("project1/data/artifacts_module2", "test.csv")
+    raw_data2: str=os.path.join("/Users/siddhant/Project2/Bank_functions/data/artifacts_module2", "raw_data.csv")
+    train_data2: str=os.path.join("/Users/siddhant/Project2/Bank_functions/data/artifacts_module2", "train.csv")
+    test_data2: str=os.path.join("/Users/siddhant/Project2/Bank_functions/data/artifacts_module2", "test.csv")
     
-    raw_data3: str=os.path.join("project1/data/artifacts_module3", "raw_data.csv")
-    train_data3: str=os.path.join("project1/data/artifacts_module3", "train.csv")
-    test_data3: str=os.path.join("project1/data/artifacts_module3", "test.csv")
+    raw_data3: str=os.path.join("/Users/siddhant/Project2/Bank_functions/data/artifacts_module3", "raw_data.csv")
+    train_data3: str=os.path.join("/Users/siddhant/Project2/Bank_functions/data/artifacts_module3", "train.csv")
+    test_data3: str=os.path.join("/Users/siddhant/Project2/Bank_functions/data/artifacts_module3", "test.csv")
 
 class InitialiseIngestion:      
     def __init__(self):

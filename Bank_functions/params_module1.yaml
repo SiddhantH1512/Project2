@@ -1,0 +1,6 @@
+xgboost_params:
+  learning_rate: 0.18753281169411604
+  max_depth: 9
+  subsample: 0.7463136914901966
+  colsample_bytree: 0.9715887740003736
+  n_estimators: 900
