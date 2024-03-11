@@ -16,9 +16,12 @@ import os
 
 @dataclass
 class DataTransformConfig:
-    preprocessor_object_train = os.path.join("/Users/siddhant/Project2/Bank_functions/data/artifacts_module1", "pipeline_train.pkl")
-    preprocessor_object_test = os.path.join("/Users/siddhant/Project2/Bank_functions/data/artifacts_module1", "pipeline_test.pkl")
-
+    preprocessor_object_train = os.path.join("/Users/siddhant/Project2/Bank_functions", "transformer.pkl")
+    X_train_transformed = os.path.join("/Users/siddhant/Project2/Bank_functions/data/artifacts_module1", "X_train_transformed.csv")
+    X_test_transformed = os.path.join("/Users/siddhant/Project2/Bank_functions/data/artifacts_module1", "X_test_transformed.csv")
+    Y_resampled = os.path.join("/Users/siddhant/Project2/Bank_functions/data/artifacts_module1", "Y_resampled.csv")
+    Y_test = os.path.join("/Users/siddhant/Project2/Bank_functions/data/artifacts_module1", "Y_test.csv")
+    
 class InitiateDataTransformation:
     def __init__(self, train_file_path, test_file_path):
         self.transform_config = DataTransformConfig()
@@ -121,12 +124,16 @@ class InitiateDataTransformation:
         except Exception as e:
             logging.error(f'Error occurred during transformation application: {e}')
             raise CustomException(str(e), sys)
-        
+     
+    def save_files(self, X_train_transformed, y_resampled, X_test_transformed, test_y):
+        pd.DataFrame(X_train_transformed).to_csv(self.transform_config.X_train_transformed, index=False)
+        pd.DataFrame(y_resampled).to_csv(self.transform_config.Y_resampled, index=False)
+        pd.DataFrame(X_test_transformed).to_csv(self.transform_config.X_test_transformed, index=False)
+        test_y.to_csv(self.transform_config.Y_test, index=False)  
         
     def main_run(self):
-        self.transform_train()
-        self.transform_test()
-        self.initiate_transform()
+        X_train_transformed, y_resampled, X_test_transformed, test_y = self.initiate_transform()
+        self.save_files(X_train_transformed, y_resampled, X_test_transformed, test_y)
         
 
 if __name__ == '__main__':
