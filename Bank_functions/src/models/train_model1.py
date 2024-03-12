@@ -13,6 +13,9 @@ from dataclasses import dataclass
 from utils import save_obj, open_object
 import os
 import mlflow
+import warnings
+
+warnings.filterwarnings('ignore')
 
 
 @dataclass
@@ -30,7 +33,7 @@ class ModelBuild:
         logging.info(f"Ytrain_resample shape: {self.Ytrain_resample.shape}")
 
 
-        # Define spaces for hyperparameter tuning
+        
         self.xgb_space = {
             'learning_rate': hp.uniform('learning_rate', 0.01, 0.2),
             'max_depth': hp.choice('max_depth', range(3, 10)),
@@ -41,8 +44,8 @@ class ModelBuild:
         }
 
         self.ada_space = {
-            'learning_rate': hp.uniform('ada_learning_rate', 0.01, 1.0),
-            'n_estimators': hp.choice('ada_n_estimators', range(50, 1000, 50))
+            'learning_rate': hp.uniform('learning_rate', 0.01, 1.0),
+            'n_estimators': hp.choice('n_estimators', range(50, 1000, 50))
         }
 
     def incremental_objective_xgb(self, params, frac):
@@ -91,7 +94,7 @@ class ModelBuild:
             logging.error(f'Error during XGBoost hyperparameter tuning: {e}')
             raise CustomException(e, sys)
 
-    def optimize_incrementally_ada(self, trials, max_evals=100, increments=[0.01, 0.05, 0.1, 0.5, 1.0]):
+    def optimize_incrementally_ada(self, trials, max_evals=50, increments=[0.01, 0.05, 0.1, 0.5, 1.0]):
         try:
             logging.info('Starting incremental hyperparameter tuning for AdaBoost classifier with MLflow tracking.')
             with mlflow.start_run():
@@ -109,6 +112,7 @@ class ModelBuild:
                 best_model_ada = AdaBoostClassifier(**best_params)
                 best_model_ada.fit(self.Xtrain_resample, self.Ytrain_resample)
                 mlflow.sklearn.log_model(best_model_ada, "ada_model")
+                
             logging.info('Completed incremental hyperparameter tuning for AdaBoost.')
             return best_params
         except Exception as e:
@@ -126,9 +130,35 @@ class ModelBuild:
             recall = recall_score(self.Y_test, prediction)
             logging.info(f'Final ROC AUC score: {roc_score}')
             logging.info(f'Final RECALL score: {recall}')
+            with mlflow.start_run():
+                mlflow.log_metric('roc_auc', roc_score)
+                mlflow.log_metric('recall', recall)
+                mlflow.sklearn.log_model(xgb_model, 'XGBoost')
+                
             save_obj(model_builder.model_path.model, xgb_model)
             logging.info('Model saved')
             return roc_score, xgb_model
+        except Exception as e:
+            logging.error(f'Error in final XGBoost model training or evaluation: {e}')
+            raise CustomException(e, sys)
+        
+    def final_model_ada(self, parameters):
+        try:
+            logging.info('Training final ADABoost model with optimized parameters.')
+            ada_model = AdaBoostClassifier(**parameters)
+            ada_model.fit(self.Xtrain_resample, self.Ytrain_resample)
+            logging.info('Predicting on the test set with the final model.')
+            prediction = ada_model.predict(self.X_test_transformed)
+            roc_score_ada = roc_auc_score(self.Y_test, prediction)
+            recall_ada = recall_score(self.Y_test, prediction)
+            logging.info(f'Final ROC AUC score: {roc_score_ada}')
+            logging.info(f'Final RECALL score: {recall_ada}')
+            with mlflow.start_run():
+                mlflow.log_metric('roc_auc', roc_score_ada)
+                mlflow.log_metric('recall', recall_ada)
+                mlflow.sklearn.log_model(ada_model, 'Adaboost')
+            
+            return roc_score_ada, ada_model
         except Exception as e:
             logging.error(f'Error in final XGBoost model training or evaluation: {e}')
             raise CustomException(e, sys)
@@ -144,8 +174,10 @@ if __name__ == '__main__':
         
         model_builder = ModelBuild(Xtrain_resampled, ytrain_resampled, Xtest_im, ytest_im)
         best_params_xgb = model_builder.optimize_incrementally_xgb(Trials())
-        roc_score, trained_model = model_builder.final_model(best_params_xgb)
-        logging.info(f'Model building completed with ROC AUC: {roc_score}')
+        best_params_ada = model_builder.optimize_incrementally_ada(Trials())
+        roc_score_xgb, trained_model_xgb = model_builder.final_model(best_params_xgb)
+        roc_score_ada, trained_model_ada = model_builder.final_model_ada(best_params_ada)
+        logging.info(f'Model building completed with ROC AUC xgboost: {roc_score_xgb} and roc_auc adaboost {roc_score_ada}')
         
     except Exception as e:
         logging.error(f'Error in model building process: {e}')

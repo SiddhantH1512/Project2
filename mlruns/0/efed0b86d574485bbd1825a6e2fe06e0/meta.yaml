@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/siddhant/Project2/mlruns/0/efed0b86d574485bbd1825a6e2fe06e0/artifacts
+end_time: 1710259854265
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: efed0b86d574485bbd1825a6e2fe06e0
+run_name: useful-boar-886
+run_uuid: efed0b86d574485bbd1825a6e2fe06e0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710256656312
+status: 4
+tags: []
+user_id: siddhant

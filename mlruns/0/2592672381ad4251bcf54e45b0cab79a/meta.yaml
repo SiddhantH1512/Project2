@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/siddhant/Project2/mlruns/0/2592672381ad4251bcf54e45b0cab79a/artifacts
+end_time: 1710226830415
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2592672381ad4251bcf54e45b0cab79a
+run_name: silent-yak-356
+run_uuid: 2592672381ad4251bcf54e45b0cab79a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710224834475
+status: 3
+tags: []
+user_id: siddhant

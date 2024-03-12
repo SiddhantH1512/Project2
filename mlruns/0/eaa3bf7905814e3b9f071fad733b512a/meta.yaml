@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/siddhant/Project2/mlruns/0/eaa3bf7905814e3b9f071fad733b512a/artifacts
+end_time: 1710256656310
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: eaa3bf7905814e3b9f071fad733b512a
+run_name: unique-skink-993
+run_uuid: eaa3bf7905814e3b9f071fad733b512a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710254590499
+status: 3
+tags: []
+user_id: siddhant
