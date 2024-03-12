@@ -18,9 +18,11 @@ import os
 class DataTransformConfig:
     preprocessor_object_train = os.path.join("/Users/siddhant/Project2/Bank_functions", "transformer.pkl")
     X_train_transformed = os.path.join("/Users/siddhant/Project2/Bank_functions/data/artifacts_module1", "X_train_transformed.csv")
+    X_train_transformed_im = os.path.join("/Users/siddhant/Project2/Bank_functions/data/artifacts_module1", "X_train_transformed_im.csv")
     X_test_transformed = os.path.join("/Users/siddhant/Project2/Bank_functions/data/artifacts_module1", "X_test_transformed.csv")
     Y_resampled = os.path.join("/Users/siddhant/Project2/Bank_functions/data/artifacts_module1", "Y_resampled.csv")
     Y_test = os.path.join("/Users/siddhant/Project2/Bank_functions/data/artifacts_module1", "Y_test.csv")
+    Y_train = os.path.join("/Users/siddhant/Project2/Bank_functions/data/artifacts_module1", "Y_train_im.csv")
     
 class InitiateDataTransformation:
     def __init__(self, train_file_path, test_file_path):
@@ -112,6 +114,7 @@ class InitiateDataTransformation:
             
             logging.info('Applying transformation on training')
             X_train_transformed = transform_train.transform(X_resampled) 
+            X_train_transformed_im = transform_train.transform(self.train_X) 
             
             logging.info('Creating and applying transform object for test data')
             X_test_transformed = transform_train.transform(self.test_X)
@@ -119,21 +122,23 @@ class InitiateDataTransformation:
             logging.info('Saving the transformation objects')
             save_obj(file_path=self.transform_config.preprocessor_object_train, obj=transform_train)
             
-            return X_train_transformed, y_resampled, X_test_transformed, self.test_y
+            return X_train_transformed, X_train_transformed_im, y_resampled, X_test_transformed, self.test_y, self.train_y
         
         except Exception as e:
             logging.error(f'Error occurred during transformation application: {e}')
             raise CustomException(str(e), sys)
      
-    def save_files(self, X_train_transformed, y_resampled, X_test_transformed, test_y):
+    def save_files(self, X_train_transformed, X_train_transformed_im, y_resampled, X_test_transformed, test_y, train_y):
         pd.DataFrame(X_train_transformed).to_csv(self.transform_config.X_train_transformed, index=False)
+        pd.DataFrame(X_train_transformed_im).to_csv(self.transform_config.X_train_transformed_im, index=False)
         pd.DataFrame(y_resampled).to_csv(self.transform_config.Y_resampled, index=False)
         pd.DataFrame(X_test_transformed).to_csv(self.transform_config.X_test_transformed, index=False)
-        test_y.to_csv(self.transform_config.Y_test, index=False)  
+        test_y.to_csv(self.transform_config.Y_test, index=False) 
+        train_y.to_csv(self.transform_config.Y_train, index=False)   
         
     def main_run(self):
-        X_train_transformed, y_resampled, X_test_transformed, test_y = self.initiate_transform()
-        self.save_files(X_train_transformed, y_resampled, X_test_transformed, test_y)
+        X_train_transformed, X_train_transformed_im, y_resampled, X_test_transformed, test_y, train_y = self.initiate_transform()
+        self.save_files(X_train_transformed, X_train_transformed_im, y_resampled, X_test_transformed, test_y, train_y)
         
 
 if __name__ == '__main__':

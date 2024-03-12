@@ -7,3 +7,5 @@ matplotlib
 dvclive
 plotly
 boto3
+mlflow
+hyperopt

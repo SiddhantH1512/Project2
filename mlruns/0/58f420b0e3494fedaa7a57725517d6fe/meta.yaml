@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/siddhant/Project2/mlruns/0/58f420b0e3494fedaa7a57725517d6fe/artifacts
+end_time: 1710218151288
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 58f420b0e3494fedaa7a57725517d6fe
+run_name: receptive-slug-334
+run_uuid: 58f420b0e3494fedaa7a57725517d6fe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710218151065
+status: 4
+tags: []
+user_id: siddhant

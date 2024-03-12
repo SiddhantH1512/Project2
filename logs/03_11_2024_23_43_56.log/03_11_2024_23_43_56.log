@@ -1,0 +1,2 @@
+[ 2024-03-11 23:43:58,452 ] 134 root - INFO - Initializing model building.
+[ 2024-03-11 23:44:01,331 ] 146 root - ERROR - Error in model building process: The number of samples in X and y does not match.

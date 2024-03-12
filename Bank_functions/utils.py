@@ -13,4 +13,11 @@ def save_obj(file_path, obj):
         raise CustomException(e, sys)
     
 
-    
+def open_object(file_path):
+    with open(file_path, 'rb') as file_obj:
+        obj = pickle.load(file_obj)   
+    return obj
+
+
+
+

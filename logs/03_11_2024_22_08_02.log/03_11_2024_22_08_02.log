@@ -1,0 +1,18 @@
+[ 2024-03-11 22:08:04,042 ] 145 root - INFO - Transformation run
+[ 2024-03-11 22:08:09,881 ] 38 root - INFO - Creating new features for train
+[ 2024-03-11 22:08:57,315 ] 42 root - INFO - New features created
+[ 2024-03-11 22:08:57,317 ] 44 root - INFO - Creating new features for test
+[ 2024-03-11 22:09:07,993 ] 48 root - INFO - New features created
+[ 2024-03-11 22:09:07,994 ] 50 root - INFO - Dropping columns
+[ 2024-03-11 22:09:08,243 ] 53 root - INFO - Dropped columns
+[ 2024-03-11 22:09:08,243 ] 55 root - INFO - Splitting input and target variables
+[ 2024-03-11 22:09:08,343 ] 60 root - INFO - Split successful
+[ 2024-03-11 22:09:08,343 ] 107 root - INFO - Creating transform object for training data
+[ 2024-03-11 22:09:08,343 ] 73 root - INFO - Encoding training feature ['type']
+[ 2024-03-11 22:09:08,343 ] 74 root - INFO - Scaling training features ['step', 'amount', 'dest_balance']
+[ 2024-03-11 22:09:08,343 ] 79 root - INFO - Transformations completed
+[ 2024-03-11 22:09:09,438 ] 110 root - INFO - Resampling train data
+[ 2024-03-11 22:15:57,379 ] 114 root - INFO - Applying transformation on training
+[ 2024-03-11 22:16:00,746 ] 118 root - INFO - Creating and applying transform object for test data
+[ 2024-03-11 22:16:01,039 ] 121 root - INFO - Saving the transformation objects
+[ 2024-03-11 22:17:06,063 ] 150 root - INFO - Transformation run complete
