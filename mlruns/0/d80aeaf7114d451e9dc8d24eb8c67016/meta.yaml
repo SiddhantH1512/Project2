@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/siddhant/Project2/mlruns/0/d80aeaf7114d451e9dc8d24eb8c67016/artifacts
+end_time: 1710265940899
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d80aeaf7114d451e9dc8d24eb8c67016
+run_name: judicious-conch-998
+run_uuid: d80aeaf7114d451e9dc8d24eb8c67016
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710265939589
+status: 3
+tags: []
+user_id: siddhant

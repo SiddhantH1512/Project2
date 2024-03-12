@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1710266345212
+current_stage: None
+description: ''
+last_updated_timestamp: 1710266345212
+name: XGBoostClassifier
+run_id: ad8f28c901354c0b8d9e099bdf67275b
+run_link: ''
+source: file:///Users/siddhant/Project2/mlruns/0/ad8f28c901354c0b8d9e099bdf67275b/artifacts/XGBoost
+status: READY
+status_message: null
+storage_location: file:///Users/siddhant/Project2/mlruns/0/ad8f28c901354c0b8d9e099bdf67275b/artifacts/XGBoost
+user_id: null
+version: 1

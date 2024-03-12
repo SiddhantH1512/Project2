@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/siddhant/Project2/mlruns/0/ad8f28c901354c0b8d9e099bdf67275b/artifacts
+end_time: 1710265865206
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ad8f28c901354c0b8d9e099bdf67275b
+run_name: rumbling-panda-787
+run_uuid: ad8f28c901354c0b8d9e099bdf67275b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710265864091
+status: 3
+tags: []
+user_id: siddhant

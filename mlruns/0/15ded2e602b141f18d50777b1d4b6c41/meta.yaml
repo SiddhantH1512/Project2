@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/siddhant/Project2/mlruns/0/15ded2e602b141f18d50777b1d4b6c41/artifacts
+end_time: 1710265860798
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 15ded2e602b141f18d50777b1d4b6c41
+run_name: valuable-crane-700
+run_uuid: 15ded2e602b141f18d50777b1d4b6c41
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710262373566
+status: 3
+tags: []
+user_id: siddhant
