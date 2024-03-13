@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/siddhant/Project2/mlruns/0/4a7a6e7f594248e789722ca0182dec96/artifacts
+end_time: 1710359318765
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4a7a6e7f594248e789722ca0182dec96
+run_name: extra trees
+run_uuid: 4a7a6e7f594248e789722ca0182dec96
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710359317651
+status: 3
+tags: []
+user_id: siddhant

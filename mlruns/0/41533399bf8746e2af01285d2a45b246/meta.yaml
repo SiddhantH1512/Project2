@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/siddhant/Project2/mlruns/0/41533399bf8746e2af01285d2a45b246/artifacts
+end_time: 1710359312753
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 41533399bf8746e2af01285d2a45b246
+run_name: svr
+run_uuid: 41533399bf8746e2af01285d2a45b246
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710359311655
+status: 3
+tags: []
+user_id: siddhant

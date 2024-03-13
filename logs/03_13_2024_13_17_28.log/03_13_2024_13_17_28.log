@@ -1,0 +1,13 @@
+[ 2024-03-13 13:17:32,104 ] 86 root - INFO - Running the script
+[ 2024-03-13 13:17:32,114 ] 28 root - INFO - deleting unwanted Column from train and test
+[ 2024-03-13 13:17:32,117 ] 31 root - INFO - Column cleanup
+[ 2024-03-13 13:17:32,117 ] 35 root - INFO - Setting upper limit to catch outliers
+[ 2024-03-13 13:17:32,118 ] 38 root - INFO - Removing outlier
+[ 2024-03-13 13:17:32,118 ] 42 root - INFO - Splitting input and target variables
+[ 2024-03-13 13:17:32,119 ] 28 root - INFO - deleting unwanted Column from train and test
+[ 2024-03-13 13:17:32,119 ] 31 root - INFO - Column cleanup
+[ 2024-03-13 13:17:32,119 ] 42 root - INFO - Splitting input and target variables
+[ 2024-03-13 13:17:32,120 ] 54 root - INFO - Resampling the data
+[ 2024-03-13 13:17:32,528 ] 58 root - INFO - Scaling the data
+[ 2024-03-13 13:17:32,528 ] 71 root - INFO - Error occured in data transformation at: name 'StandardScaler' is not defined
+[ 2024-03-13 13:17:32,528 ] 92 root - INFO - Error occured in running the script at: Error occured in python script name [/Users/siddhant/Project2/Bank_functions/src/components/clean_data_module2.py] line number [59] error message[name 'StandardScaler' is not defined]

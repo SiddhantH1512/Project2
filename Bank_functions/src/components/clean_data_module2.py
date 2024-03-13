@@ -4,21 +4,17 @@ from logger import logging
 from exceptions import CustomException
 import pandas as pd
 import numpy as np 
-from sklearn.compose import ColumnTransformer
-from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import StandardScaler
 from imblearn.over_sampling import SMOTEN
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from dataclasses import dataclass
-from imblearn.pipeline import Pipeline as ImPipeline 
-from utils import save_obj
 import os
 
+@dataclass
 class DataTransformconfig:
-    scaled_X_train = os.path.join('/Users/siddhant/Project2/Bank_functions/data/artifacts_module2', 'scaled_trainX')
-    scaled_X_test = os.path.join('/Users/siddhant/Project2/Bank_functions/data/artifacts_module2', 'scaled_testX')
-    resampled_y = os.path.join('/Users/siddhant/Project2/Bank_functions/data/artifacts_module2', 'resampled_Y')
-    orig_y_test = os.path.join('/Users/siddhant/Project2/Bank_functions/data/artifacts_module2', 'y_test_orig')
+    scaled_X_train = os.path.join('/Users/siddhant/Project2/Bank_functions/data/artifacts_module2', 'scaled_trainX.csv')
+    scaled_X_test = os.path.join('/Users/siddhant/Project2/Bank_functions/data/artifacts_module2', 'scaled_testX.csv')
+    resampled_y = os.path.join('/Users/siddhant/Project2/Bank_functions/data/artifacts_module2', 'resampled_Y.csv')
+    orig_y_test = os.path.join('/Users/siddhant/Project2/Bank_functions/data/artifacts_module2', 'y_test_orig.csv')
 
 class DataTransform:
     def __init__(self, train_file_path, test_file_path):
