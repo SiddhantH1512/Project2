@@ -1,0 +1,10 @@
+[ 2024-03-13 17:53:43,382 ] 118 root - INFO - Initialise model building
+[ 2024-03-13 17:53:43,388 ] 41 root - INFO - Loading required files in dataframes
+[ 2024-03-13 17:53:43,398 ] 71 root - INFO - Optimizing XGB with parameter space to get best params
+[ 2024-03-13 17:53:43,482 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001190 seconds
+[ 2024-03-13 17:53:43,482 ] 900 hyperopt.tpe - INFO - TPE using 0 trials
+[ 2024-03-13 17:53:43,483 ] 55 root - INFO - Settinig up the objective function
+[ 2024-03-13 17:53:43,484 ] 58 root - INFO - Performing cross validation
+[ 2024-03-13 17:53:45,054 ] 180 hyperopt.fmin - ERROR - job exception: 
+[ 2024-03-13 17:53:45,056 ] 86 root - INFO - Hyperparameter tuning failed
+[ 2024-03-13 17:53:45,056 ] 131 root - ERROR - Error in model building process: Error occured in python script name [/Users/siddhant/Project2/Bank_functions/src/models/final_model_module2.py] line number [73] error message[]

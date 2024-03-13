@@ -9,11 +9,11 @@ from sklearn.ensemble import AdaBoostClassifier
 from sklearn.svm import SVC
 from sklearn.tree import ExtraTreeClassifier, DecisionTreeClassifier
 from sklearn.ensemble import AdaBoostClassifier, RandomForestClassifier
-from sklearn.metrics import f1_score, recall_score, precision_score, roc_auc_score
+from sklearn.metrics import recall_score, roc_auc_score
 from xgboost import XGBClassifier
 from sklearn.model_selection import cross_val_score, KFold
 from dataclasses import dataclass
-from utils import save_obj, open_object
+from utils import save_obj
 import os
 import mlflow
 import warnings
