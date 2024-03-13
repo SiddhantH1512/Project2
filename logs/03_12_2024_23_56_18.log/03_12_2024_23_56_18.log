@@ -1,0 +1,4 @@
+[ 2024-03-12 23:56:24,219 ] 91 root - INFO - Running the script
+[ 2024-03-12 23:56:24,230 ] 33 root - INFO - deleting unwanted Column from train and test
+[ 2024-03-12 23:56:24,230 ] 54 root - INFO - Error occured in cleaning at: cannot access local variable 'df' where it is not associated with a value
+[ 2024-03-12 23:56:24,231 ] 97 root - INFO - Error occured in running the script at: Error occured in python script name [/Users/siddhant/Project2/Bank_functions/src/components/clean_data_module2.py] line number [34] error message[cannot access local variable 'df' where it is not associated with a value]
