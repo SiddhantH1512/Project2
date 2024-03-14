@@ -20,6 +20,7 @@ import warnings
 
 warnings.filterwarnings('ignore')
 
+@dataclass
 class ModelConfig3:
     resampled_object = os.path.join('/Users/siddhant/Project2/Bank_functions/src/models/trained_models', 'resampled_bestmodel.pkl')
     imbalanced_object = os.path.join('/Users/siddhant/Project2/Bank_functions/src/models/trained_models', 'imbalanced_bestmodel.pkl')
@@ -85,9 +86,6 @@ class ModelBuild:
                 mlflow.log_metric('precision_resampled', precision_resampled)
                 mlflow.sklearn.log_model(model, 'model_name')
             
-            logging.info('Saving the prediction object')
-            save_obj(self.modelconfig.resampled_prediction, prediction_resampled)
-            
         except Exception as e:
             logging.info(f'Error in cross validation at: {e}')
             raise CustomException(e, sys)   
@@ -113,9 +111,6 @@ class ModelBuild:
                 mlflow.log_metric('recall_imbalanced', recall_imbalanced)
                 mlflow.log_metric('precision_imbalanced', precision_imbalanced)
                 mlflow.sklearn.log_model(model, 'model_name')
-            
-            logging.info('Saving the prediction object')
-            save_obj(self.modelconfig.imbalanced_prediction, prediction_imbalanced)
             
         except Exception as e:
             logging.info(f'Error in cross validation at: {e}')

@@ -1,0 +1,813 @@
+[ 2024-03-14 04:59:36,042 ] 186 root - INFO - Initialise model building
+[ 2024-03-14 04:59:36,042 ] 45 root - INFO - Loading required files in dataframes
+[ 2024-03-14 04:59:36,069 ] 53 root - INFO - Load coplete
+[ 2024-03-14 04:59:36,069 ] 93 root - INFO - Hyperparamter tuning started
+[ 2024-03-14 04:59:36,144 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001362 seconds
+[ 2024-03-14 04:59:36,144 ] 900 hyperopt.tpe - INFO - TPE using 0 trials
+[ 2024-03-14 04:59:36,146 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 04:59:36,146 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 04:59:38,773 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001178 seconds
+[ 2024-03-14 04:59:38,773 ] 900 hyperopt.tpe - INFO - TPE using 1/1 trials with best loss -0.876785
+[ 2024-03-14 04:59:38,773 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 04:59:38,773 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 04:59:43,005 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001159 seconds
+[ 2024-03-14 04:59:43,005 ] 900 hyperopt.tpe - INFO - TPE using 2/2 trials with best loss -0.876785
+[ 2024-03-14 04:59:43,006 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 04:59:43,006 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 04:59:47,369 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001134 seconds
+[ 2024-03-14 04:59:47,369 ] 900 hyperopt.tpe - INFO - TPE using 3/3 trials with best loss -0.881634
+[ 2024-03-14 04:59:47,370 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 04:59:47,370 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 04:59:49,053 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001245 seconds
+[ 2024-03-14 04:59:49,053 ] 900 hyperopt.tpe - INFO - TPE using 4/4 trials with best loss -0.881634
+[ 2024-03-14 04:59:49,053 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 04:59:49,053 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 04:59:52,998 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001213 seconds
+[ 2024-03-14 04:59:52,998 ] 900 hyperopt.tpe - INFO - TPE using 5/5 trials with best loss -0.881868
+[ 2024-03-14 04:59:52,999 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 04:59:52,999 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 04:59:57,041 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001315 seconds
+[ 2024-03-14 04:59:57,042 ] 900 hyperopt.tpe - INFO - TPE using 6/6 trials with best loss -0.881868
+[ 2024-03-14 04:59:57,042 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 04:59:57,042 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:00:03,573 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001198 seconds
+[ 2024-03-14 05:00:03,574 ] 900 hyperopt.tpe - INFO - TPE using 7/7 trials with best loss -0.881868
+[ 2024-03-14 05:00:03,574 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:00:03,574 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:00:05,425 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001226 seconds
+[ 2024-03-14 05:00:05,425 ] 900 hyperopt.tpe - INFO - TPE using 8/8 trials with best loss -0.881868
+[ 2024-03-14 05:00:05,426 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:00:05,426 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:00:06,982 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001420 seconds
+[ 2024-03-14 05:00:06,982 ] 900 hyperopt.tpe - INFO - TPE using 9/9 trials with best loss -0.881868
+[ 2024-03-14 05:00:06,982 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:00:06,982 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:00:08,575 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001270 seconds
+[ 2024-03-14 05:00:08,575 ] 900 hyperopt.tpe - INFO - TPE using 10/10 trials with best loss -0.881868
+[ 2024-03-14 05:00:08,575 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:00:08,575 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:00:09,205 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001433 seconds
+[ 2024-03-14 05:00:09,205 ] 900 hyperopt.tpe - INFO - TPE using 11/11 trials with best loss -0.881868
+[ 2024-03-14 05:00:09,205 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:00:09,205 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:00:14,366 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001310 seconds
+[ 2024-03-14 05:00:14,366 ] 900 hyperopt.tpe - INFO - TPE using 12/12 trials with best loss -0.881868
+[ 2024-03-14 05:00:14,366 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:00:14,366 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:00:18,607 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001350 seconds
+[ 2024-03-14 05:00:18,607 ] 900 hyperopt.tpe - INFO - TPE using 13/13 trials with best loss -0.881868
+[ 2024-03-14 05:00:18,607 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:00:18,607 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:00:20,240 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001302 seconds
+[ 2024-03-14 05:00:20,240 ] 900 hyperopt.tpe - INFO - TPE using 14/14 trials with best loss -0.881868
+[ 2024-03-14 05:00:20,240 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:00:20,240 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:00:26,069 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001219 seconds
+[ 2024-03-14 05:00:26,070 ] 900 hyperopt.tpe - INFO - TPE using 15/15 trials with best loss -0.884733
+[ 2024-03-14 05:00:26,070 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:00:26,070 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:00:32,415 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001448 seconds
+[ 2024-03-14 05:00:32,415 ] 900 hyperopt.tpe - INFO - TPE using 16/16 trials with best loss -0.884733
+[ 2024-03-14 05:00:32,415 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:00:32,415 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:00:33,554 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001248 seconds
+[ 2024-03-14 05:00:33,554 ] 900 hyperopt.tpe - INFO - TPE using 17/17 trials with best loss -0.884733
+[ 2024-03-14 05:00:33,555 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:00:33,555 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:00:35,157 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001417 seconds
+[ 2024-03-14 05:00:35,157 ] 900 hyperopt.tpe - INFO - TPE using 18/18 trials with best loss -0.884733
+[ 2024-03-14 05:00:35,157 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:00:35,157 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:00:39,474 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001480 seconds
+[ 2024-03-14 05:00:39,474 ] 900 hyperopt.tpe - INFO - TPE using 19/19 trials with best loss -0.884733
+[ 2024-03-14 05:00:39,474 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:00:39,474 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:00:45,937 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001321 seconds
+[ 2024-03-14 05:00:45,937 ] 900 hyperopt.tpe - INFO - TPE using 20/20 trials with best loss -0.884733
+[ 2024-03-14 05:00:45,944 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:00:45,944 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:00:50,885 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001259 seconds
+[ 2024-03-14 05:00:50,886 ] 900 hyperopt.tpe - INFO - TPE using 21/21 trials with best loss -0.884733
+[ 2024-03-14 05:00:50,889 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:00:50,889 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:00:55,425 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001251 seconds
+[ 2024-03-14 05:00:55,425 ] 900 hyperopt.tpe - INFO - TPE using 22/22 trials with best loss -0.884733
+[ 2024-03-14 05:00:55,428 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:00:55,428 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:00:59,989 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001389 seconds
+[ 2024-03-14 05:00:59,989 ] 900 hyperopt.tpe - INFO - TPE using 23/23 trials with best loss -0.884733
+[ 2024-03-14 05:00:59,991 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:00:59,991 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:01:05,998 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001392 seconds
+[ 2024-03-14 05:01:05,998 ] 900 hyperopt.tpe - INFO - TPE using 24/24 trials with best loss -0.884733
+[ 2024-03-14 05:01:06,001 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:01:06,001 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:01:09,212 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001355 seconds
+[ 2024-03-14 05:01:09,212 ] 900 hyperopt.tpe - INFO - TPE using 25/25 trials with best loss -0.884733
+[ 2024-03-14 05:01:09,214 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:01:09,214 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:01:13,807 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001151 seconds
+[ 2024-03-14 05:01:13,808 ] 900 hyperopt.tpe - INFO - TPE using 26/26 trials with best loss -0.884733
+[ 2024-03-14 05:01:13,810 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:01:13,810 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:01:18,521 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001434 seconds
+[ 2024-03-14 05:01:18,521 ] 900 hyperopt.tpe - INFO - TPE using 27/27 trials with best loss -0.884733
+[ 2024-03-14 05:01:18,524 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:01:18,524 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:01:22,620 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001175 seconds
+[ 2024-03-14 05:01:22,620 ] 900 hyperopt.tpe - INFO - TPE using 28/28 trials with best loss -0.884733
+[ 2024-03-14 05:01:22,623 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:01:22,623 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:01:27,573 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001156 seconds
+[ 2024-03-14 05:01:27,574 ] 900 hyperopt.tpe - INFO - TPE using 29/29 trials with best loss -0.884733
+[ 2024-03-14 05:01:27,577 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:01:27,577 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:01:34,288 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001194 seconds
+[ 2024-03-14 05:01:34,288 ] 900 hyperopt.tpe - INFO - TPE using 30/30 trials with best loss -0.884733
+[ 2024-03-14 05:01:34,291 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:01:34,291 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:01:40,257 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001495 seconds
+[ 2024-03-14 05:01:40,257 ] 900 hyperopt.tpe - INFO - TPE using 31/31 trials with best loss -0.884733
+[ 2024-03-14 05:01:40,260 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:01:40,260 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:01:40,732 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001268 seconds
+[ 2024-03-14 05:01:40,732 ] 900 hyperopt.tpe - INFO - TPE using 32/32 trials with best loss -0.884733
+[ 2024-03-14 05:01:40,735 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:01:40,735 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:01:45,530 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001176 seconds
+[ 2024-03-14 05:01:45,530 ] 900 hyperopt.tpe - INFO - TPE using 33/33 trials with best loss -0.884733
+[ 2024-03-14 05:01:45,533 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:01:45,533 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:01:46,489 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001528 seconds
+[ 2024-03-14 05:01:46,489 ] 900 hyperopt.tpe - INFO - TPE using 34/34 trials with best loss -0.884733
+[ 2024-03-14 05:01:46,492 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:01:46,492 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:01:53,908 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001184 seconds
+[ 2024-03-14 05:01:53,909 ] 900 hyperopt.tpe - INFO - TPE using 35/35 trials with best loss -0.884733
+[ 2024-03-14 05:01:53,912 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:01:53,912 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:02:01,473 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001412 seconds
+[ 2024-03-14 05:02:01,474 ] 900 hyperopt.tpe - INFO - TPE using 36/36 trials with best loss -0.884733
+[ 2024-03-14 05:02:01,476 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:02:01,476 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:02:07,905 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001379 seconds
+[ 2024-03-14 05:02:07,906 ] 900 hyperopt.tpe - INFO - TPE using 37/37 trials with best loss -0.884733
+[ 2024-03-14 05:02:07,909 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:02:07,909 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:02:09,787 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001258 seconds
+[ 2024-03-14 05:02:09,787 ] 900 hyperopt.tpe - INFO - TPE using 38/38 trials with best loss -0.884733
+[ 2024-03-14 05:02:09,790 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:02:09,790 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:02:15,703 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001252 seconds
+[ 2024-03-14 05:02:15,704 ] 900 hyperopt.tpe - INFO - TPE using 39/39 trials with best loss -0.884733
+[ 2024-03-14 05:02:15,707 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:02:15,707 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:02:16,489 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001235 seconds
+[ 2024-03-14 05:02:16,489 ] 900 hyperopt.tpe - INFO - TPE using 40/40 trials with best loss -0.884733
+[ 2024-03-14 05:02:16,491 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:02:16,491 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:02:23,431 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001345 seconds
+[ 2024-03-14 05:02:23,431 ] 900 hyperopt.tpe - INFO - TPE using 41/41 trials with best loss -0.884733
+[ 2024-03-14 05:02:23,434 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:02:23,434 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:02:29,197 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001284 seconds
+[ 2024-03-14 05:02:29,197 ] 900 hyperopt.tpe - INFO - TPE using 42/42 trials with best loss -0.884733
+[ 2024-03-14 05:02:29,200 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:02:29,200 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:02:33,800 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001163 seconds
+[ 2024-03-14 05:02:33,800 ] 900 hyperopt.tpe - INFO - TPE using 43/43 trials with best loss -0.884733
+[ 2024-03-14 05:02:33,803 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:02:33,803 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:02:35,795 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001513 seconds
+[ 2024-03-14 05:02:35,795 ] 900 hyperopt.tpe - INFO - TPE using 44/44 trials with best loss -0.884733
+[ 2024-03-14 05:02:35,798 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:02:35,798 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:02:40,068 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001118 seconds
+[ 2024-03-14 05:02:40,068 ] 900 hyperopt.tpe - INFO - TPE using 45/45 trials with best loss -0.884733
+[ 2024-03-14 05:02:40,071 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:02:40,071 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:02:46,048 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001414 seconds
+[ 2024-03-14 05:02:46,049 ] 900 hyperopt.tpe - INFO - TPE using 46/46 trials with best loss -0.884733
+[ 2024-03-14 05:02:46,051 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:02:46,051 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:02:53,989 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001434 seconds
+[ 2024-03-14 05:02:53,990 ] 900 hyperopt.tpe - INFO - TPE using 47/47 trials with best loss -0.884733
+[ 2024-03-14 05:02:53,992 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:02:53,992 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:02:55,985 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001182 seconds
+[ 2024-03-14 05:02:55,985 ] 900 hyperopt.tpe - INFO - TPE using 48/48 trials with best loss -0.884733
+[ 2024-03-14 05:02:55,987 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:02:55,987 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:03:00,364 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001519 seconds
+[ 2024-03-14 05:03:00,365 ] 900 hyperopt.tpe - INFO - TPE using 49/49 trials with best loss -0.884733
+[ 2024-03-14 05:03:00,367 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:03:00,367 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:03:07,486 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001281 seconds
+[ 2024-03-14 05:03:07,486 ] 900 hyperopt.tpe - INFO - TPE using 50/50 trials with best loss -0.884733
+[ 2024-03-14 05:03:07,489 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:03:07,489 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:03:09,142 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001342 seconds
+[ 2024-03-14 05:03:09,142 ] 900 hyperopt.tpe - INFO - TPE using 51/51 trials with best loss -0.884733
+[ 2024-03-14 05:03:09,145 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:03:09,145 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:03:13,879 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001609 seconds
+[ 2024-03-14 05:03:13,879 ] 900 hyperopt.tpe - INFO - TPE using 52/52 trials with best loss -0.884733
+[ 2024-03-14 05:03:13,882 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:03:13,882 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:03:19,014 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001262 seconds
+[ 2024-03-14 05:03:19,015 ] 900 hyperopt.tpe - INFO - TPE using 53/53 trials with best loss -0.884733
+[ 2024-03-14 05:03:19,018 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:03:19,018 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:03:25,792 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001338 seconds
+[ 2024-03-14 05:03:25,793 ] 900 hyperopt.tpe - INFO - TPE using 54/54 trials with best loss -0.884733
+[ 2024-03-14 05:03:25,796 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:03:25,796 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:03:27,314 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001370 seconds
+[ 2024-03-14 05:03:27,314 ] 900 hyperopt.tpe - INFO - TPE using 55/55 trials with best loss -0.884733
+[ 2024-03-14 05:03:27,317 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:03:27,317 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:03:31,443 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001613 seconds
+[ 2024-03-14 05:03:31,443 ] 900 hyperopt.tpe - INFO - TPE using 56/56 trials with best loss -0.884733
+[ 2024-03-14 05:03:31,446 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:03:31,446 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:03:34,035 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001592 seconds
+[ 2024-03-14 05:03:34,036 ] 900 hyperopt.tpe - INFO - TPE using 57/57 trials with best loss -0.884733
+[ 2024-03-14 05:03:34,038 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:03:34,038 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:03:42,169 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001437 seconds
+[ 2024-03-14 05:03:42,170 ] 900 hyperopt.tpe - INFO - TPE using 58/58 trials with best loss -0.884733
+[ 2024-03-14 05:03:42,173 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:03:42,173 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:03:46,692 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001284 seconds
+[ 2024-03-14 05:03:46,692 ] 900 hyperopt.tpe - INFO - TPE using 59/59 trials with best loss -0.884733
+[ 2024-03-14 05:03:46,695 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:03:46,695 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:03:47,360 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.050638 seconds
+[ 2024-03-14 05:03:47,360 ] 900 hyperopt.tpe - INFO - TPE using 60/60 trials with best loss -0.884733
+[ 2024-03-14 05:03:47,363 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:03:47,363 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:03:50,890 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001402 seconds
+[ 2024-03-14 05:03:50,891 ] 900 hyperopt.tpe - INFO - TPE using 61/61 trials with best loss -0.884733
+[ 2024-03-14 05:03:50,893 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:03:50,893 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:03:55,073 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001157 seconds
+[ 2024-03-14 05:03:55,074 ] 900 hyperopt.tpe - INFO - TPE using 62/62 trials with best loss -0.884733
+[ 2024-03-14 05:03:55,076 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:03:55,076 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:03:57,125 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001810 seconds
+[ 2024-03-14 05:03:57,126 ] 900 hyperopt.tpe - INFO - TPE using 63/63 trials with best loss -0.884733
+[ 2024-03-14 05:03:57,129 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:03:57,129 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:03:59,711 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001228 seconds
+[ 2024-03-14 05:03:59,712 ] 900 hyperopt.tpe - INFO - TPE using 64/64 trials with best loss -0.884733
+[ 2024-03-14 05:03:59,714 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:03:59,714 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:04:03,024 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001215 seconds
+[ 2024-03-14 05:04:03,025 ] 900 hyperopt.tpe - INFO - TPE using 65/65 trials with best loss -0.884733
+[ 2024-03-14 05:04:03,027 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:04:03,027 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:04:08,296 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001303 seconds
+[ 2024-03-14 05:04:08,297 ] 900 hyperopt.tpe - INFO - TPE using 66/66 trials with best loss -0.884733
+[ 2024-03-14 05:04:08,300 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:04:08,300 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:04:13,183 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.003190 seconds
+[ 2024-03-14 05:04:13,183 ] 900 hyperopt.tpe - INFO - TPE using 67/67 trials with best loss -0.884733
+[ 2024-03-14 05:04:13,186 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:04:13,186 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:04:18,481 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001489 seconds
+[ 2024-03-14 05:04:18,482 ] 900 hyperopt.tpe - INFO - TPE using 68/68 trials with best loss -0.884733
+[ 2024-03-14 05:04:18,485 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:04:18,485 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:04:23,910 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001540 seconds
+[ 2024-03-14 05:04:23,911 ] 900 hyperopt.tpe - INFO - TPE using 69/69 trials with best loss -0.884733
+[ 2024-03-14 05:04:23,914 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:04:23,914 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:04:29,010 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001446 seconds
+[ 2024-03-14 05:04:29,011 ] 900 hyperopt.tpe - INFO - TPE using 70/70 trials with best loss -0.885743
+[ 2024-03-14 05:04:29,014 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:04:29,014 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:04:34,367 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001532 seconds
+[ 2024-03-14 05:04:34,367 ] 900 hyperopt.tpe - INFO - TPE using 71/71 trials with best loss -0.885743
+[ 2024-03-14 05:04:34,370 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:04:34,370 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:04:43,527 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001458 seconds
+[ 2024-03-14 05:04:43,528 ] 900 hyperopt.tpe - INFO - TPE using 72/72 trials with best loss -0.885743
+[ 2024-03-14 05:04:43,531 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:04:43,531 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:04:47,804 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001425 seconds
+[ 2024-03-14 05:04:47,804 ] 900 hyperopt.tpe - INFO - TPE using 73/73 trials with best loss -0.885743
+[ 2024-03-14 05:04:47,807 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:04:47,807 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:04:55,106 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.002013 seconds
+[ 2024-03-14 05:04:55,110 ] 900 hyperopt.tpe - INFO - TPE using 74/74 trials with best loss -0.885743
+[ 2024-03-14 05:04:55,118 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:04:55,118 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:05:01,275 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001709 seconds
+[ 2024-03-14 05:05:01,275 ] 900 hyperopt.tpe - INFO - TPE using 75/75 trials with best loss -0.885743
+[ 2024-03-14 05:05:01,278 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:05:01,278 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:05:04,979 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001592 seconds
+[ 2024-03-14 05:05:04,979 ] 900 hyperopt.tpe - INFO - TPE using 76/76 trials with best loss -0.885743
+[ 2024-03-14 05:05:04,982 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:05:04,982 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:05:07,740 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001738 seconds
+[ 2024-03-14 05:05:07,741 ] 900 hyperopt.tpe - INFO - TPE using 77/77 trials with best loss -0.885743
+[ 2024-03-14 05:05:07,744 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:05:07,744 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:05:14,439 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001540 seconds
+[ 2024-03-14 05:05:14,439 ] 900 hyperopt.tpe - INFO - TPE using 78/78 trials with best loss -0.885743
+[ 2024-03-14 05:05:14,443 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:05:14,443 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:05:14,974 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001869 seconds
+[ 2024-03-14 05:05:14,974 ] 900 hyperopt.tpe - INFO - TPE using 79/79 trials with best loss -0.885743
+[ 2024-03-14 05:05:14,977 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:05:14,977 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:05:20,870 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001734 seconds
+[ 2024-03-14 05:05:20,871 ] 900 hyperopt.tpe - INFO - TPE using 80/80 trials with best loss -0.885743
+[ 2024-03-14 05:05:20,874 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:05:20,874 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:05:24,188 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001599 seconds
+[ 2024-03-14 05:05:24,189 ] 900 hyperopt.tpe - INFO - TPE using 81/81 trials with best loss -0.885743
+[ 2024-03-14 05:05:24,192 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:05:24,192 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:05:26,882 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001354 seconds
+[ 2024-03-14 05:05:26,882 ] 900 hyperopt.tpe - INFO - TPE using 82/82 trials with best loss -0.885743
+[ 2024-03-14 05:05:26,885 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:05:26,885 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:05:32,124 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001771 seconds
+[ 2024-03-14 05:05:32,124 ] 900 hyperopt.tpe - INFO - TPE using 83/83 trials with best loss -0.885743
+[ 2024-03-14 05:05:32,127 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:05:32,128 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:05:39,065 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001637 seconds
+[ 2024-03-14 05:05:39,066 ] 900 hyperopt.tpe - INFO - TPE using 84/84 trials with best loss -0.885743
+[ 2024-03-14 05:05:39,069 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:05:39,069 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:05:39,894 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001269 seconds
+[ 2024-03-14 05:05:39,894 ] 900 hyperopt.tpe - INFO - TPE using 85/85 trials with best loss -0.885743
+[ 2024-03-14 05:05:39,897 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:05:39,897 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:05:45,147 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001347 seconds
+[ 2024-03-14 05:05:45,148 ] 900 hyperopt.tpe - INFO - TPE using 86/86 trials with best loss -0.885743
+[ 2024-03-14 05:05:45,151 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:05:45,151 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:05:54,646 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001922 seconds
+[ 2024-03-14 05:05:54,648 ] 900 hyperopt.tpe - INFO - TPE using 87/87 trials with best loss -0.885743
+[ 2024-03-14 05:05:54,651 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:05:54,651 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:06:05,236 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001447 seconds
+[ 2024-03-14 05:06:05,237 ] 900 hyperopt.tpe - INFO - TPE using 88/88 trials with best loss -0.885743
+[ 2024-03-14 05:06:05,240 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:06:05,240 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:06:07,883 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001198 seconds
+[ 2024-03-14 05:06:07,883 ] 900 hyperopt.tpe - INFO - TPE using 89/89 trials with best loss -0.885743
+[ 2024-03-14 05:06:07,886 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:06:07,886 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:06:10,707 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001236 seconds
+[ 2024-03-14 05:06:10,707 ] 900 hyperopt.tpe - INFO - TPE using 90/90 trials with best loss -0.885743
+[ 2024-03-14 05:06:10,710 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:06:10,710 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:06:16,832 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001382 seconds
+[ 2024-03-14 05:06:16,833 ] 900 hyperopt.tpe - INFO - TPE using 91/91 trials with best loss -0.885743
+[ 2024-03-14 05:06:16,836 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:06:16,836 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:06:26,326 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001261 seconds
+[ 2024-03-14 05:06:26,328 ] 900 hyperopt.tpe - INFO - TPE using 92/92 trials with best loss -0.885743
+[ 2024-03-14 05:06:26,331 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:06:26,331 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:06:27,835 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001299 seconds
+[ 2024-03-14 05:06:27,835 ] 900 hyperopt.tpe - INFO - TPE using 93/93 trials with best loss -0.885743
+[ 2024-03-14 05:06:27,838 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:06:27,838 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:06:30,476 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001933 seconds
+[ 2024-03-14 05:06:30,476 ] 900 hyperopt.tpe - INFO - TPE using 94/94 trials with best loss -0.885743
+[ 2024-03-14 05:06:30,479 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:06:30,479 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:06:33,300 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001314 seconds
+[ 2024-03-14 05:06:33,301 ] 900 hyperopt.tpe - INFO - TPE using 95/95 trials with best loss -0.885743
+[ 2024-03-14 05:06:33,304 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:06:33,304 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:06:38,657 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001340 seconds
+[ 2024-03-14 05:06:38,657 ] 900 hyperopt.tpe - INFO - TPE using 96/96 trials with best loss -0.885743
+[ 2024-03-14 05:06:38,660 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:06:38,660 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:06:44,998 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001414 seconds
+[ 2024-03-14 05:06:44,998 ] 900 hyperopt.tpe - INFO - TPE using 97/97 trials with best loss -0.885743
+[ 2024-03-14 05:06:45,001 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:06:45,001 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:06:45,912 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001197 seconds
+[ 2024-03-14 05:06:45,912 ] 900 hyperopt.tpe - INFO - TPE using 98/98 trials with best loss -0.885743
+[ 2024-03-14 05:06:45,915 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:06:45,915 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:06:52,180 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001374 seconds
+[ 2024-03-14 05:06:52,180 ] 900 hyperopt.tpe - INFO - TPE using 99/99 trials with best loss -0.885743
+[ 2024-03-14 05:06:52,183 ] 62 root - INFO - Setting up the objective function
+[ 2024-03-14 05:06:52,183 ] 65 root - INFO - Cross validating the data
+[ 2024-03-14 05:06:57,474 ] 101 root - INFO - Extracting best parameters
+[ 2024-03-14 05:06:57,480 ] 113 root - INFO - Hyperparamter tuning started
+[ 2024-03-14 05:06:57,489 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001054 seconds
+[ 2024-03-14 05:06:57,489 ] 900 hyperopt.tpe - INFO - TPE using 0 trials
+[ 2024-03-14 05:06:57,489 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:06:57,489 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:07:00,199 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001381 seconds
+[ 2024-03-14 05:07:00,199 ] 900 hyperopt.tpe - INFO - TPE using 1/1 trials with best loss -0.496653
+[ 2024-03-14 05:07:00,200 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:07:00,200 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:07:01,797 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001490 seconds
+[ 2024-03-14 05:07:01,797 ] 900 hyperopt.tpe - INFO - TPE using 2/2 trials with best loss -0.496653
+[ 2024-03-14 05:07:01,797 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:07:01,797 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:07:08,822 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001202 seconds
+[ 2024-03-14 05:07:08,823 ] 900 hyperopt.tpe - INFO - TPE using 3/3 trials with best loss -0.497176
+[ 2024-03-14 05:07:08,823 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:07:08,823 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:07:17,048 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001371 seconds
+[ 2024-03-14 05:07:17,049 ] 900 hyperopt.tpe - INFO - TPE using 4/4 trials with best loss -0.497176
+[ 2024-03-14 05:07:17,049 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:07:17,049 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:07:18,625 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001702 seconds
+[ 2024-03-14 05:07:18,625 ] 900 hyperopt.tpe - INFO - TPE using 5/5 trials with best loss -0.497176
+[ 2024-03-14 05:07:18,625 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:07:18,625 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:07:26,104 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001477 seconds
+[ 2024-03-14 05:07:26,105 ] 900 hyperopt.tpe - INFO - TPE using 6/6 trials with best loss -0.497176
+[ 2024-03-14 05:07:26,105 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:07:26,105 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:07:28,339 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001109 seconds
+[ 2024-03-14 05:07:28,339 ] 900 hyperopt.tpe - INFO - TPE using 7/7 trials with best loss -0.497176
+[ 2024-03-14 05:07:28,339 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:07:28,339 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:07:30,217 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001124 seconds
+[ 2024-03-14 05:07:30,218 ] 900 hyperopt.tpe - INFO - TPE using 8/8 trials with best loss -0.497176
+[ 2024-03-14 05:07:30,218 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:07:30,218 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:07:34,202 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001457 seconds
+[ 2024-03-14 05:07:34,203 ] 900 hyperopt.tpe - INFO - TPE using 9/9 trials with best loss -0.497176
+[ 2024-03-14 05:07:34,203 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:07:34,203 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:07:36,330 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001478 seconds
+[ 2024-03-14 05:07:36,331 ] 900 hyperopt.tpe - INFO - TPE using 10/10 trials with best loss -0.497176
+[ 2024-03-14 05:07:36,331 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:07:36,331 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:07:41,729 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001506 seconds
+[ 2024-03-14 05:07:41,729 ] 900 hyperopt.tpe - INFO - TPE using 11/11 trials with best loss -0.497176
+[ 2024-03-14 05:07:41,730 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:07:41,730 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:07:44,731 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001416 seconds
+[ 2024-03-14 05:07:44,732 ] 900 hyperopt.tpe - INFO - TPE using 12/12 trials with best loss -0.501195
+[ 2024-03-14 05:07:44,733 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:07:44,733 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:07:57,459 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001438 seconds
+[ 2024-03-14 05:07:57,461 ] 900 hyperopt.tpe - INFO - TPE using 13/13 trials with best loss -0.501195
+[ 2024-03-14 05:07:57,461 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:07:57,461 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:08:00,530 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001214 seconds
+[ 2024-03-14 05:08:00,530 ] 900 hyperopt.tpe - INFO - TPE using 14/14 trials with best loss -0.501195
+[ 2024-03-14 05:08:00,530 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:08:00,530 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:08:04,313 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001130 seconds
+[ 2024-03-14 05:08:04,313 ] 900 hyperopt.tpe - INFO - TPE using 15/15 trials with best loss -0.501195
+[ 2024-03-14 05:08:04,314 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:08:04,314 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:08:06,176 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001390 seconds
+[ 2024-03-14 05:08:06,176 ] 900 hyperopt.tpe - INFO - TPE using 16/16 trials with best loss -0.501195
+[ 2024-03-14 05:08:06,177 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:08:06,177 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:08:12,483 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001423 seconds
+[ 2024-03-14 05:08:12,483 ] 900 hyperopt.tpe - INFO - TPE using 17/17 trials with best loss -0.501195
+[ 2024-03-14 05:08:12,483 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:08:12,483 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:08:13,562 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001456 seconds
+[ 2024-03-14 05:08:13,562 ] 900 hyperopt.tpe - INFO - TPE using 18/18 trials with best loss -0.501195
+[ 2024-03-14 05:08:13,563 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:08:13,563 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:08:21,365 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001233 seconds
+[ 2024-03-14 05:08:21,366 ] 900 hyperopt.tpe - INFO - TPE using 19/19 trials with best loss -0.501195
+[ 2024-03-14 05:08:21,366 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:08:21,366 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:08:26,393 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001272 seconds
+[ 2024-03-14 05:08:26,393 ] 900 hyperopt.tpe - INFO - TPE using 20/20 trials with best loss -0.504981
+[ 2024-03-14 05:08:26,396 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:08:26,396 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:08:30,420 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001165 seconds
+[ 2024-03-14 05:08:30,422 ] 900 hyperopt.tpe - INFO - TPE using 21/21 trials with best loss -0.504981
+[ 2024-03-14 05:08:30,425 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:08:30,425 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:08:31,533 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001128 seconds
+[ 2024-03-14 05:08:31,533 ] 900 hyperopt.tpe - INFO - TPE using 22/22 trials with best loss -0.504981
+[ 2024-03-14 05:08:31,535 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:08:31,535 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:08:36,386 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001154 seconds
+[ 2024-03-14 05:08:36,387 ] 900 hyperopt.tpe - INFO - TPE using 23/23 trials with best loss -0.504981
+[ 2024-03-14 05:08:36,391 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:08:36,391 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:08:39,736 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001102 seconds
+[ 2024-03-14 05:08:39,736 ] 900 hyperopt.tpe - INFO - TPE using 24/24 trials with best loss -0.504981
+[ 2024-03-14 05:08:39,739 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:08:39,739 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:08:41,477 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001346 seconds
+[ 2024-03-14 05:08:41,477 ] 900 hyperopt.tpe - INFO - TPE using 25/25 trials with best loss -0.504981
+[ 2024-03-14 05:08:41,480 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:08:41,480 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:08:45,717 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001279 seconds
+[ 2024-03-14 05:08:45,717 ] 900 hyperopt.tpe - INFO - TPE using 26/26 trials with best loss -0.504981
+[ 2024-03-14 05:08:45,720 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:08:45,720 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:08:49,831 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001362 seconds
+[ 2024-03-14 05:08:49,831 ] 900 hyperopt.tpe - INFO - TPE using 27/27 trials with best loss -0.504981
+[ 2024-03-14 05:08:49,834 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:08:49,834 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:08:53,841 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001109 seconds
+[ 2024-03-14 05:08:53,842 ] 900 hyperopt.tpe - INFO - TPE using 28/28 trials with best loss -0.504981
+[ 2024-03-14 05:08:53,845 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:08:53,845 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:08:55,783 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001269 seconds
+[ 2024-03-14 05:08:55,783 ] 900 hyperopt.tpe - INFO - TPE using 29/29 trials with best loss -0.504981
+[ 2024-03-14 05:08:55,785 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:08:55,785 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:09:00,975 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001484 seconds
+[ 2024-03-14 05:09:00,975 ] 900 hyperopt.tpe - INFO - TPE using 30/30 trials with best loss -0.504981
+[ 2024-03-14 05:09:00,977 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:09:00,977 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:09:03,734 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001244 seconds
+[ 2024-03-14 05:09:03,734 ] 900 hyperopt.tpe - INFO - TPE using 31/31 trials with best loss -0.504981
+[ 2024-03-14 05:09:03,737 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:09:03,737 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:09:04,301 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001149 seconds
+[ 2024-03-14 05:09:04,301 ] 900 hyperopt.tpe - INFO - TPE using 32/32 trials with best loss -0.504981
+[ 2024-03-14 05:09:04,304 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:09:04,304 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:09:07,263 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001232 seconds
+[ 2024-03-14 05:09:07,264 ] 900 hyperopt.tpe - INFO - TPE using 33/33 trials with best loss -0.504981
+[ 2024-03-14 05:09:07,267 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:09:07,267 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:09:10,427 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001228 seconds
+[ 2024-03-14 05:09:10,427 ] 900 hyperopt.tpe - INFO - TPE using 34/34 trials with best loss -0.504981
+[ 2024-03-14 05:09:10,430 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:09:10,430 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:09:14,100 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001343 seconds
+[ 2024-03-14 05:09:14,101 ] 900 hyperopt.tpe - INFO - TPE using 35/35 trials with best loss -0.504981
+[ 2024-03-14 05:09:14,104 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:09:14,104 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:09:17,293 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001851 seconds
+[ 2024-03-14 05:09:17,294 ] 900 hyperopt.tpe - INFO - TPE using 36/36 trials with best loss -0.504981
+[ 2024-03-14 05:09:17,300 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:09:17,300 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:09:21,992 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001334 seconds
+[ 2024-03-14 05:09:21,993 ] 900 hyperopt.tpe - INFO - TPE using 37/37 trials with best loss -0.504981
+[ 2024-03-14 05:09:21,996 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:09:21,996 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:09:26,257 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001408 seconds
+[ 2024-03-14 05:09:26,258 ] 900 hyperopt.tpe - INFO - TPE using 38/38 trials with best loss -0.504981
+[ 2024-03-14 05:09:26,260 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:09:26,260 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:09:30,747 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001171 seconds
+[ 2024-03-14 05:09:30,748 ] 900 hyperopt.tpe - INFO - TPE using 39/39 trials with best loss -0.504981
+[ 2024-03-14 05:09:30,751 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:09:30,751 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:09:34,346 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001559 seconds
+[ 2024-03-14 05:09:34,346 ] 900 hyperopt.tpe - INFO - TPE using 40/40 trials with best loss -0.504981
+[ 2024-03-14 05:09:34,349 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:09:34,349 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:09:41,014 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001089 seconds
+[ 2024-03-14 05:09:41,015 ] 900 hyperopt.tpe - INFO - TPE using 41/41 trials with best loss -0.504981
+[ 2024-03-14 05:09:41,018 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:09:41,018 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:09:45,420 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001451 seconds
+[ 2024-03-14 05:09:45,420 ] 900 hyperopt.tpe - INFO - TPE using 42/42 trials with best loss -0.504981
+[ 2024-03-14 05:09:45,423 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:09:45,423 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:09:49,450 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001451 seconds
+[ 2024-03-14 05:09:49,450 ] 900 hyperopt.tpe - INFO - TPE using 43/43 trials with best loss -0.504981
+[ 2024-03-14 05:09:49,453 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:09:49,453 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:09:53,505 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001483 seconds
+[ 2024-03-14 05:09:53,505 ] 900 hyperopt.tpe - INFO - TPE using 44/44 trials with best loss -0.504981
+[ 2024-03-14 05:09:53,508 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:09:53,508 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:09:53,973 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001306 seconds
+[ 2024-03-14 05:09:53,973 ] 900 hyperopt.tpe - INFO - TPE using 45/45 trials with best loss -0.504981
+[ 2024-03-14 05:09:53,976 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:09:53,976 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:09:58,183 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.002058 seconds
+[ 2024-03-14 05:09:58,184 ] 900 hyperopt.tpe - INFO - TPE using 46/46 trials with best loss -0.504981
+[ 2024-03-14 05:09:58,188 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:09:58,188 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:10:02,336 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001449 seconds
+[ 2024-03-14 05:10:02,336 ] 900 hyperopt.tpe - INFO - TPE using 47/47 trials with best loss -0.504981
+[ 2024-03-14 05:10:02,339 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:10:02,339 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:10:04,275 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001568 seconds
+[ 2024-03-14 05:10:04,275 ] 900 hyperopt.tpe - INFO - TPE using 48/48 trials with best loss -0.504981
+[ 2024-03-14 05:10:04,278 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:10:04,278 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:10:09,745 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001092 seconds
+[ 2024-03-14 05:10:09,745 ] 900 hyperopt.tpe - INFO - TPE using 49/49 trials with best loss -0.504981
+[ 2024-03-14 05:10:09,748 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:10:09,748 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:10:15,043 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001498 seconds
+[ 2024-03-14 05:10:15,043 ] 900 hyperopt.tpe - INFO - TPE using 50/50 trials with best loss -0.504981
+[ 2024-03-14 05:10:15,046 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:10:15,046 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:10:17,800 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001177 seconds
+[ 2024-03-14 05:10:17,800 ] 900 hyperopt.tpe - INFO - TPE using 51/51 trials with best loss -0.504981
+[ 2024-03-14 05:10:17,803 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:10:17,803 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:10:19,440 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001309 seconds
+[ 2024-03-14 05:10:19,440 ] 900 hyperopt.tpe - INFO - TPE using 52/52 trials with best loss -0.504981
+[ 2024-03-14 05:10:19,443 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:10:19,443 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:10:24,131 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001264 seconds
+[ 2024-03-14 05:10:24,132 ] 900 hyperopt.tpe - INFO - TPE using 53/53 trials with best loss -0.504981
+[ 2024-03-14 05:10:24,135 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:10:24,135 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:10:28,088 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001276 seconds
+[ 2024-03-14 05:10:28,088 ] 900 hyperopt.tpe - INFO - TPE using 54/54 trials with best loss -0.504981
+[ 2024-03-14 05:10:28,091 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:10:28,091 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:10:34,793 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001137 seconds
+[ 2024-03-14 05:10:34,793 ] 900 hyperopt.tpe - INFO - TPE using 55/55 trials with best loss -0.504981
+[ 2024-03-14 05:10:34,795 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:10:34,796 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:10:37,317 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001212 seconds
+[ 2024-03-14 05:10:37,317 ] 900 hyperopt.tpe - INFO - TPE using 56/56 trials with best loss -0.504981
+[ 2024-03-14 05:10:37,319 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:10:37,320 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:10:38,431 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001179 seconds
+[ 2024-03-14 05:10:38,431 ] 900 hyperopt.tpe - INFO - TPE using 57/57 trials with best loss -0.504981
+[ 2024-03-14 05:10:38,434 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:10:38,434 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:10:46,853 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001753 seconds
+[ 2024-03-14 05:10:46,853 ] 900 hyperopt.tpe - INFO - TPE using 58/58 trials with best loss -0.504981
+[ 2024-03-14 05:10:46,856 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:10:46,856 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:10:53,264 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001189 seconds
+[ 2024-03-14 05:10:53,264 ] 900 hyperopt.tpe - INFO - TPE using 59/59 trials with best loss -0.504981
+[ 2024-03-14 05:10:53,267 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:10:53,267 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:11:02,759 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001179 seconds
+[ 2024-03-14 05:11:02,760 ] 900 hyperopt.tpe - INFO - TPE using 60/60 trials with best loss -0.504981
+[ 2024-03-14 05:11:02,763 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:11:02,763 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:11:09,317 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001101 seconds
+[ 2024-03-14 05:11:09,317 ] 900 hyperopt.tpe - INFO - TPE using 61/61 trials with best loss -0.504981
+[ 2024-03-14 05:11:09,320 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:11:09,320 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:11:10,046 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001351 seconds
+[ 2024-03-14 05:11:10,046 ] 900 hyperopt.tpe - INFO - TPE using 62/62 trials with best loss -0.504981
+[ 2024-03-14 05:11:10,049 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:11:10,049 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:11:17,637 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001152 seconds
+[ 2024-03-14 05:11:17,637 ] 900 hyperopt.tpe - INFO - TPE using 63/63 trials with best loss -0.504981
+[ 2024-03-14 05:11:17,639 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:11:17,640 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:11:23,394 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001596 seconds
+[ 2024-03-14 05:11:23,394 ] 900 hyperopt.tpe - INFO - TPE using 64/64 trials with best loss -0.504981
+[ 2024-03-14 05:11:23,397 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:11:23,397 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:11:26,700 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001170 seconds
+[ 2024-03-14 05:11:26,700 ] 900 hyperopt.tpe - INFO - TPE using 65/65 trials with best loss -0.504981
+[ 2024-03-14 05:11:26,703 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:11:26,703 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:11:33,559 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001131 seconds
+[ 2024-03-14 05:11:33,559 ] 900 hyperopt.tpe - INFO - TPE using 66/66 trials with best loss -0.504981
+[ 2024-03-14 05:11:33,562 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:11:33,562 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:11:41,477 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001444 seconds
+[ 2024-03-14 05:11:41,478 ] 900 hyperopt.tpe - INFO - TPE using 67/67 trials with best loss -0.504981
+[ 2024-03-14 05:11:41,481 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:11:41,481 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:11:44,667 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001714 seconds
+[ 2024-03-14 05:11:44,667 ] 900 hyperopt.tpe - INFO - TPE using 68/68 trials with best loss -0.504981
+[ 2024-03-14 05:11:44,670 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:11:44,670 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:11:50,396 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001536 seconds
+[ 2024-03-14 05:11:50,396 ] 900 hyperopt.tpe - INFO - TPE using 69/69 trials with best loss -0.504981
+[ 2024-03-14 05:11:50,399 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:11:50,399 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:11:58,038 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001514 seconds
+[ 2024-03-14 05:11:58,040 ] 900 hyperopt.tpe - INFO - TPE using 70/70 trials with best loss -0.504981
+[ 2024-03-14 05:11:58,043 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:11:58,043 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:12:00,349 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001107 seconds
+[ 2024-03-14 05:12:00,349 ] 900 hyperopt.tpe - INFO - TPE using 71/71 trials with best loss -0.504981
+[ 2024-03-14 05:12:00,352 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:12:00,352 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:12:04,136 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001204 seconds
+[ 2024-03-14 05:12:04,136 ] 900 hyperopt.tpe - INFO - TPE using 72/72 trials with best loss -0.504981
+[ 2024-03-14 05:12:04,139 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:12:04,139 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:12:08,083 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001298 seconds
+[ 2024-03-14 05:12:08,084 ] 900 hyperopt.tpe - INFO - TPE using 73/73 trials with best loss -0.504981
+[ 2024-03-14 05:12:08,086 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:12:08,086 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:12:12,728 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001539 seconds
+[ 2024-03-14 05:12:12,728 ] 900 hyperopt.tpe - INFO - TPE using 74/74 trials with best loss -0.508524
+[ 2024-03-14 05:12:12,731 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:12:12,731 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:12:15,628 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001105 seconds
+[ 2024-03-14 05:12:15,629 ] 900 hyperopt.tpe - INFO - TPE using 75/75 trials with best loss -0.509147
+[ 2024-03-14 05:12:15,632 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:12:15,632 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:12:18,395 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001121 seconds
+[ 2024-03-14 05:12:18,396 ] 900 hyperopt.tpe - INFO - TPE using 76/76 trials with best loss -0.509147
+[ 2024-03-14 05:12:18,399 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:12:18,399 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:12:21,134 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001195 seconds
+[ 2024-03-14 05:12:21,134 ] 900 hyperopt.tpe - INFO - TPE using 77/77 trials with best loss -0.509147
+[ 2024-03-14 05:12:21,137 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:12:21,137 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:12:24,147 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001260 seconds
+[ 2024-03-14 05:12:24,147 ] 900 hyperopt.tpe - INFO - TPE using 78/78 trials with best loss -0.509147
+[ 2024-03-14 05:12:24,150 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:12:24,150 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:12:27,081 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001157 seconds
+[ 2024-03-14 05:12:27,081 ] 900 hyperopt.tpe - INFO - TPE using 79/79 trials with best loss -0.509147
+[ 2024-03-14 05:12:27,084 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:12:27,084 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:12:29,687 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001320 seconds
+[ 2024-03-14 05:12:29,688 ] 900 hyperopt.tpe - INFO - TPE using 80/80 trials with best loss -0.509147
+[ 2024-03-14 05:12:29,691 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:12:29,691 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:12:32,189 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001141 seconds
+[ 2024-03-14 05:12:32,189 ] 900 hyperopt.tpe - INFO - TPE using 81/81 trials with best loss -0.509147
+[ 2024-03-14 05:12:32,192 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:12:32,192 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:12:35,139 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001182 seconds
+[ 2024-03-14 05:12:35,139 ] 900 hyperopt.tpe - INFO - TPE using 82/82 trials with best loss -0.509147
+[ 2024-03-14 05:12:35,142 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:12:35,142 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:12:37,990 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001143 seconds
+[ 2024-03-14 05:12:37,990 ] 900 hyperopt.tpe - INFO - TPE using 83/83 trials with best loss -0.509147
+[ 2024-03-14 05:12:37,993 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:12:37,993 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:12:40,981 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001450 seconds
+[ 2024-03-14 05:12:40,981 ] 900 hyperopt.tpe - INFO - TPE using 84/84 trials with best loss -0.509147
+[ 2024-03-14 05:12:40,984 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:12:40,984 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:12:43,809 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001538 seconds
+[ 2024-03-14 05:12:43,809 ] 900 hyperopt.tpe - INFO - TPE using 85/85 trials with best loss -0.509147
+[ 2024-03-14 05:12:43,812 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:12:43,812 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:12:46,672 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001139 seconds
+[ 2024-03-14 05:12:46,672 ] 900 hyperopt.tpe - INFO - TPE using 86/86 trials with best loss -0.509147
+[ 2024-03-14 05:12:46,675 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:12:46,675 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:12:49,658 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001478 seconds
+[ 2024-03-14 05:12:49,658 ] 900 hyperopt.tpe - INFO - TPE using 87/87 trials with best loss -0.509147
+[ 2024-03-14 05:12:49,661 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:12:49,661 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:12:52,525 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001585 seconds
+[ 2024-03-14 05:12:52,525 ] 900 hyperopt.tpe - INFO - TPE using 88/88 trials with best loss -0.509147
+[ 2024-03-14 05:12:52,528 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:12:52,528 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:12:56,899 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001118 seconds
+[ 2024-03-14 05:12:56,900 ] 900 hyperopt.tpe - INFO - TPE using 89/89 trials with best loss -0.509147
+[ 2024-03-14 05:12:56,903 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:12:56,903 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:12:59,766 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001207 seconds
+[ 2024-03-14 05:12:59,767 ] 900 hyperopt.tpe - INFO - TPE using 90/90 trials with best loss -0.509147
+[ 2024-03-14 05:12:59,770 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:12:59,770 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:13:01,352 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001264 seconds
+[ 2024-03-14 05:13:01,352 ] 900 hyperopt.tpe - INFO - TPE using 91/91 trials with best loss -0.509147
+[ 2024-03-14 05:13:01,355 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:13:01,355 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:13:05,022 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001317 seconds
+[ 2024-03-14 05:13:05,023 ] 900 hyperopt.tpe - INFO - TPE using 92/92 trials with best loss -0.509147
+[ 2024-03-14 05:13:05,026 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:13:05,026 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:13:06,507 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001520 seconds
+[ 2024-03-14 05:13:06,507 ] 900 hyperopt.tpe - INFO - TPE using 93/93 trials with best loss -0.509147
+[ 2024-03-14 05:13:06,510 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:13:06,510 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:13:09,412 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001479 seconds
+[ 2024-03-14 05:13:09,412 ] 900 hyperopt.tpe - INFO - TPE using 94/94 trials with best loss -0.509147
+[ 2024-03-14 05:13:09,415 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:13:09,415 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:13:10,448 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001154 seconds
+[ 2024-03-14 05:13:10,448 ] 900 hyperopt.tpe - INFO - TPE using 95/95 trials with best loss -0.509147
+[ 2024-03-14 05:13:10,451 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:13:10,452 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:13:12,822 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001521 seconds
+[ 2024-03-14 05:13:12,822 ] 900 hyperopt.tpe - INFO - TPE using 96/96 trials with best loss -0.509147
+[ 2024-03-14 05:13:12,825 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:13:12,825 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:13:13,916 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001102 seconds
+[ 2024-03-14 05:13:13,917 ] 900 hyperopt.tpe - INFO - TPE using 97/97 trials with best loss -0.509147
+[ 2024-03-14 05:13:13,920 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:13:13,920 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:13:16,418 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001218 seconds
+[ 2024-03-14 05:13:16,419 ] 900 hyperopt.tpe - INFO - TPE using 98/98 trials with best loss -0.509147
+[ 2024-03-14 05:13:16,422 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:13:16,422 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:13:20,250 ] 864 hyperopt.tpe - INFO - build_posterior_wrapper took 0.001127 seconds
+[ 2024-03-14 05:13:20,250 ] 900 hyperopt.tpe - INFO - TPE using 99/99 trials with best loss -0.509147
+[ 2024-03-14 05:13:20,254 ] 77 root - INFO - Setting up the objective function
+[ 2024-03-14 05:13:20,254 ] 80 root - INFO - Cross validating the data
+[ 2024-03-14 05:13:23,203 ] 121 root - INFO - Extracting best parameters
+[ 2024-03-14 05:13:23,206 ] 132 root - INFO - Final execution started
+[ 2024-03-14 05:13:23,206 ] 135 root - INFO - Training the model and making predicitions
+[ 2024-03-14 05:13:23,699 ] 154 root - INFO - Final execution failed
+[ 2024-03-14 05:13:23,699 ] 204 root - ERROR - Error in model building process: Error occured in python script name [/Users/siddhant/Project2/Bank_functions/src/models/final_model_module3.py] line number [137] error message[feature_names mismatch: ['ohe__Geography_France', 'ohe__Geography_Germany', 'ohe__Geography_Spain', 'ohe__Gender_Female', 'ohe__Gender_Male', 'ohe__Card Type_DIAMOND', 'ohe__Card Type_GOLD', 'ohe__Card Type_PLATINUM', 'ohe__Card Type_SILVER', 'scale__CreditScore', 'scale__Age', 'scale__Tenure', 'scale__Balance', 'scale__EstimatedSalary', 'scale__Satisfaction Score', 'scale__Point Earned', 'remainder__NumOfProducts', 'remainder__HasCrCard', 'remainder__IsActiveMember'] ['Exited']
+expected scale__EstimatedSalary, scale__Tenure, ohe__Geography_Germany, ohe__Card Type_DIAMOND, ohe__Card Type_PLATINUM, ohe__Geography_France, ohe__Gender_Male, scale__Balance, scale__Satisfaction Score, ohe__Card Type_GOLD, scale__Age, remainder__HasCrCard, scale__CreditScore, remainder__IsActiveMember, scale__Point Earned, ohe__Gender_Female, ohe__Geography_Spain, remainder__NumOfProducts, ohe__Card Type_SILVER in input data
+training data did not have the following fields: Exited]

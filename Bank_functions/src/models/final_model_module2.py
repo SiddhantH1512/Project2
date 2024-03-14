@@ -52,7 +52,7 @@ class HyperParamsTune:
     
     def objective_xgb(self, params):
         try:
-            logging.info('Settinig up the objective function')
+            logging.info('Setting up the objective function')
             self.xgb_model.set_params(**params)
             
             logging.info('Performing cross validation')
@@ -79,7 +79,6 @@ class HyperParamsTune:
                 logging.info('Extracting best parameters')
                 best_params = space_eval(self.xgb_space, best_xgb)
 
-            
             return best_params
         
         except Exception as e:

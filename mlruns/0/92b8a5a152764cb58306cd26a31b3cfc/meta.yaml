@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/siddhant/Project2/mlruns/0/92b8a5a152764cb58306cd26a31b3cfc/artifacts
+end_time: 1710411203204
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 92b8a5a152764cb58306cd26a31b3cfc
+run_name: final_imbalance_XGB
+run_uuid: 92b8a5a152764cb58306cd26a31b3cfc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710410817481
+status: 3
+tags: []
+user_id: siddhant
