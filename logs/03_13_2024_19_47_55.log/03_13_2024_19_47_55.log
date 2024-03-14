@@ -1,0 +1,16 @@
+[ 2024-03-13 19:47:58,733 ] 32 root - INFO - Clean process started
+[ 2024-03-13 19:47:58,733 ] 33 root - INFO - Dropping columns
+[ 2024-03-13 19:47:58,735 ] 36 root - INFO - Data Splitting
+[ 2024-03-13 19:47:58,736 ] 40 root - INFO - Clean process completed
+[ 2024-03-13 19:47:58,736 ] 32 root - INFO - Clean process started
+[ 2024-03-13 19:47:58,736 ] 33 root - INFO - Dropping columns
+[ 2024-03-13 19:47:58,736 ] 36 root - INFO - Data Splitting
+[ 2024-03-13 19:47:58,736 ] 40 root - INFO - Clean process completed
+[ 2024-03-13 19:47:58,736 ] 107 root - INFO - Orchestrate all the runs
+[ 2024-03-13 19:47:58,736 ] 69 root - INFO - Data transformation process begins
+[ 2024-03-13 19:47:58,736 ] 71 root - INFO - Resampling the imbalanced data
+[ 2024-03-13 19:48:00,272 ] 75 root - INFO - Applying column transformer of resampled train data, imbalanced train and test data
+[ 2024-03-13 19:48:00,272 ] 52 root - INFO - Creating a column transformer
+[ 2024-03-13 19:48:00,292 ] 84 root - INFO - Data transformation process complete
+[ 2024-03-13 19:48:00,293 ] 112 root - INFO - Error occured in orchestrating the methods at too many values to unpack (expected 3)
+[ 2024-03-13 19:48:00,293 ] 123 root - INFO - Error Error occured in python script name [/Users/siddhant/Project2/Bank_functions/src/components/clean_data_module3.py] line number [108] error message[too many values to unpack (expected 3)]
