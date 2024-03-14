@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/siddhant/Project2/mlruns/0/ee021318c41847718a33f785d457ac1b/artifacts
+end_time: 1710387816335
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ee021318c41847718a33f785d457ac1b
+run_name: resample_adaboost
+run_uuid: ee021318c41847718a33f785d457ac1b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710387815149
+status: 3
+tags: []
+user_id: siddhant

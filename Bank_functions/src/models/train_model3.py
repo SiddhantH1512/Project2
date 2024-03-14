@@ -78,7 +78,7 @@ class ModelBuild:
             self.model_preformance_resampled[model_name] = recall_resampled
             self.model_resampled[model_name] = model
                    
-            with mlflow.start_run(run_name='resampled_data'):
+            with mlflow.start_run(run_name='resample_'+ model_name):
                 logging.info('Logging model and metrics')
                 mlflow.log_metric('F1_resampled', score_resampled)
                 mlflow.log_metric('recall_resampled', recall_resampled)
@@ -107,7 +107,7 @@ class ModelBuild:
             self.model_preformance_imbalanced[model_name] = recall_imbalanced
             self.model_imbalanced[model_name] = model
                    
-            with mlflow.start_run(run_name='resampled_data'):
+            with mlflow.start_run(run_name='imbalanced_'+ model_name):
                 logging.info('Logging model and metrics')
                 mlflow.log_metric('F1_imbalanced', score_imbalanced)
                 mlflow.log_metric('recall_imbalanced', recall_imbalanced)

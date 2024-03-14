@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/siddhant/Project2/mlruns/0/a35c7b7857e14455a73551e27fdb55d8/artifacts
+end_time: 1710387798441
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a35c7b7857e14455a73551e27fdb55d8
+run_name: resample_svc
+run_uuid: a35c7b7857e14455a73551e27fdb55d8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710387797211
+status: 3
+tags: []
+user_id: siddhant

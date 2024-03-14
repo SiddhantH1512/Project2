@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/siddhant/Project2/mlruns/0/10b3948970804bf89928cdc9d63ab470/artifacts
+end_time: 1710387837641
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 10b3948970804bf89928cdc9d63ab470
+run_name: imbalanced_random forest
+run_uuid: 10b3948970804bf89928cdc9d63ab470
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710387836423
+status: 3
+tags: []
+user_id: siddhant

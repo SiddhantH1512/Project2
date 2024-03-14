@@ -1,8 +1,9 @@
 artifact_uri: file:///Users/siddhant/Project2/mlruns/0/0a4eeb792f084f8bbf20280c225f7ece/artifacts
+deleted_time: 1710387630555
 end_time: 1710386596867
 entry_point_name: ''
 experiment_id: '0'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 0a4eeb792f084f8bbf20280c225f7ece
 run_name: resampled_data
 run_uuid: 0a4eeb792f084f8bbf20280c225f7ece

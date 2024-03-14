@@ -1,0 +1,64 @@
+[ 2024-03-13 22:43:01,472 ] 51 root - INFO - Loading required files in dataframes
+[ 2024-03-13 22:43:01,501 ] 59 root - INFO - Load coplete
+[ 2024-03-13 22:43:01,501 ] 126 root - INFO - Execution of all the models begin
+[ 2024-03-13 22:43:01,501 ] 68 root - INFO - Cross validating different models and logging F1 score for resampled data
+[ 2024-03-13 22:43:01,685 ] 72 root - INFO - Making predictions and calculating metrics for resampled data
+[ 2024-03-13 22:43:01,766 ] 82 root - INFO - Logging model and metrics
+[ 2024-03-13 22:43:03,351 ] 88 root - INFO - Saving the prediction object
+[ 2024-03-13 22:43:03,352 ] 68 root - INFO - Cross validating different models and logging F1 score for resampled data
+[ 2024-03-13 22:43:15,616 ] 72 root - INFO - Making predictions and calculating metrics for resampled data
+[ 2024-03-13 22:43:17,217 ] 82 root - INFO - Logging model and metrics
+[ 2024-03-13 22:43:18,442 ] 88 root - INFO - Saving the prediction object
+[ 2024-03-13 22:43:18,442 ] 68 root - INFO - Cross validating different models and logging F1 score for resampled data
+[ 2024-03-13 22:43:18,983 ] 72 root - INFO - Making predictions and calculating metrics for resampled data
+[ 2024-03-13 22:43:19,045 ] 82 root - INFO - Logging model and metrics
+[ 2024-03-13 22:43:20,231 ] 88 root - INFO - Saving the prediction object
+[ 2024-03-13 22:43:20,231 ] 68 root - INFO - Cross validating different models and logging F1 score for resampled data
+[ 2024-03-13 22:43:28,533 ] 72 root - INFO - Making predictions and calculating metrics for resampled data
+[ 2024-03-13 22:43:29,457 ] 82 root - INFO - Logging model and metrics
+[ 2024-03-13 22:43:30,709 ] 88 root - INFO - Saving the prediction object
+[ 2024-03-13 22:43:30,709 ] 68 root - INFO - Cross validating different models and logging F1 score for resampled data
+[ 2024-03-13 22:43:30,803 ] 72 root - INFO - Making predictions and calculating metrics for resampled data
+[ 2024-03-13 22:43:30,823 ] 82 root - INFO - Logging model and metrics
+[ 2024-03-13 22:43:31,952 ] 88 root - INFO - Saving the prediction object
+[ 2024-03-13 22:43:31,952 ] 68 root - INFO - Cross validating different models and logging F1 score for resampled data
+[ 2024-03-13 22:43:34,837 ] 72 root - INFO - Making predictions and calculating metrics for resampled data
+[ 2024-03-13 22:43:35,153 ] 82 root - INFO - Logging model and metrics
+[ 2024-03-13 22:43:36,336 ] 88 root - INFO - Saving the prediction object
+[ 2024-03-13 22:43:36,336 ] 68 root - INFO - Cross validating different models and logging F1 score for resampled data
+[ 2024-03-13 22:43:37,698 ] 72 root - INFO - Making predictions and calculating metrics for resampled data
+[ 2024-03-13 22:43:37,839 ] 82 root - INFO - Logging model and metrics
+[ 2024-03-13 22:43:39,053 ] 88 root - INFO - Saving the prediction object
+[ 2024-03-13 22:43:39,053 ] 130 root - INFO - Extracting model with highest recall
+[ 2024-03-13 22:43:39,053 ] 134 root - INFO - Saving the best model trained on resampled data
+[ 2024-03-13 22:43:39,068 ] 143 root - INFO - Execution of all the models begin
+[ 2024-03-13 22:43:39,068 ] 97 root - INFO - Cross validating different models and logging F1 score for imbalanced data
+[ 2024-03-13 22:43:39,299 ] 101 root - INFO - Making predictions and calculating metrics for imbalanced data
+[ 2024-03-13 22:43:39,379 ] 111 root - INFO - Logging model and metrics
+[ 2024-03-13 22:43:40,605 ] 117 root - INFO - Saving the prediction object
+[ 2024-03-13 22:43:40,606 ] 97 root - INFO - Cross validating different models and logging F1 score for imbalanced data
+[ 2024-03-13 22:43:46,190 ] 101 root - INFO - Making predictions and calculating metrics for imbalanced data
+[ 2024-03-13 22:43:47,014 ] 111 root - INFO - Logging model and metrics
+[ 2024-03-13 22:43:48,147 ] 117 root - INFO - Saving the prediction object
+[ 2024-03-13 22:43:48,148 ] 97 root - INFO - Cross validating different models and logging F1 score for imbalanced data
+[ 2024-03-13 22:43:48,535 ] 101 root - INFO - Making predictions and calculating metrics for imbalanced data
+[ 2024-03-13 22:43:48,585 ] 111 root - INFO - Logging model and metrics
+[ 2024-03-13 22:43:49,824 ] 117 root - INFO - Saving the prediction object
+[ 2024-03-13 22:43:49,824 ] 97 root - INFO - Cross validating different models and logging F1 score for imbalanced data
+[ 2024-03-13 22:43:55,747 ] 101 root - INFO - Making predictions and calculating metrics for imbalanced data
+[ 2024-03-13 22:43:56,427 ] 111 root - INFO - Logging model and metrics
+[ 2024-03-13 22:43:57,641 ] 117 root - INFO - Saving the prediction object
+[ 2024-03-13 22:43:57,641 ] 97 root - INFO - Cross validating different models and logging F1 score for imbalanced data
+[ 2024-03-13 22:43:57,707 ] 101 root - INFO - Making predictions and calculating metrics for imbalanced data
+[ 2024-03-13 22:43:57,722 ] 111 root - INFO - Logging model and metrics
+[ 2024-03-13 22:43:58,919 ] 117 root - INFO - Saving the prediction object
+[ 2024-03-13 22:43:58,919 ] 97 root - INFO - Cross validating different models and logging F1 score for imbalanced data
+[ 2024-03-13 22:44:00,993 ] 101 root - INFO - Making predictions and calculating metrics for imbalanced data
+[ 2024-03-13 22:44:01,225 ] 111 root - INFO - Logging model and metrics
+[ 2024-03-13 22:44:02,492 ] 117 root - INFO - Saving the prediction object
+[ 2024-03-13 22:44:02,493 ] 97 root - INFO - Cross validating different models and logging F1 score for imbalanced data
+[ 2024-03-13 22:44:03,780 ] 101 root - INFO - Making predictions and calculating metrics for imbalanced data
+[ 2024-03-13 22:44:03,910 ] 111 root - INFO - Logging model and metrics
+[ 2024-03-13 22:44:05,044 ] 117 root - INFO - Saving the prediction object
+[ 2024-03-13 22:44:05,044 ] 147 root - INFO - Extracting model with highest recall
+[ 2024-03-13 22:44:05,044 ] 151 root - INFO - Saving the best model trained on resampled data

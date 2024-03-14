@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/siddhant/Project2/mlruns/0/f8fd31a714064fc3b70f36971c26cd78/artifacts
+end_time: 1710387783351
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f8fd31a714064fc3b70f36971c26cd78
+run_name: resample_logistic_reg
+run_uuid: f8fd31a714064fc3b70f36971c26cd78
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710387781760
+status: 3
+tags: []
+user_id: siddhant

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/siddhant/Project2/mlruns/0/651e4ecbb30f4dcaa03d1288c9712ffd/artifacts
+end_time: 1710387819052
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 651e4ecbb30f4dcaa03d1288c9712ffd
+run_name: resample_xgboost
+run_uuid: 651e4ecbb30f4dcaa03d1288c9712ffd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710387817835
+status: 3
+tags: []
+user_id: siddhant
