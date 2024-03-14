@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/siddhant/Project2/mlruns/0/cf4ba759b7a24de8ba824af8bff22168/artifacts
+end_time: 1710386583276
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cf4ba759b7a24de8ba824af8bff22168
+run_name: resampled_data
+run_uuid: cf4ba759b7a24de8ba824af8bff22168
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710386582050
+status: 3
+tags: []
+user_id: siddhant

@@ -1,0 +1,159 @@
+[ 2024-03-13 22:22:46,040 ] 51 root - INFO - Loading required files in dataframes
+[ 2024-03-13 22:22:46,063 ] 59 root - INFO - Load coplete
+[ 2024-03-13 22:22:46,063 ] 126 root - INFO - Execution of all the models begin
+[ 2024-03-13 22:22:46,063 ] 68 root - INFO - Cross validating different models and logging F1 score for resampled data
+[ 2024-03-13 22:22:46,476 ] 72 root - INFO - Making predictions and calculating metrics for resampled data
+[ 2024-03-13 22:22:46,573 ] 82 root - INFO - Logging model and metrics
+[ 2024-03-13 22:22:48,169 ] 88 root - INFO - Saving the prediction object
+[ 2024-03-13 22:22:48,170 ] 68 root - INFO - Cross validating different models and logging F1 score for resampled data
+[ 2024-03-13 22:23:00,438 ] 72 root - INFO - Making predictions and calculating metrics for resampled data
+[ 2024-03-13 22:23:02,055 ] 82 root - INFO - Logging model and metrics
+[ 2024-03-13 22:23:03,276 ] 88 root - INFO - Saving the prediction object
+[ 2024-03-13 22:23:03,276 ] 68 root - INFO - Cross validating different models and logging F1 score for resampled data
+[ 2024-03-13 22:23:03,821 ] 72 root - INFO - Making predictions and calculating metrics for resampled data
+[ 2024-03-13 22:23:03,884 ] 82 root - INFO - Logging model and metrics
+[ 2024-03-13 22:23:05,097 ] 88 root - INFO - Saving the prediction object
+[ 2024-03-13 22:23:05,097 ] 68 root - INFO - Cross validating different models and logging F1 score for resampled data
+[ 2024-03-13 22:23:13,404 ] 72 root - INFO - Making predictions and calculating metrics for resampled data
+[ 2024-03-13 22:23:14,332 ] 82 root - INFO - Logging model and metrics
+[ 2024-03-13 22:23:15,570 ] 88 root - INFO - Saving the prediction object
+[ 2024-03-13 22:23:15,571 ] 68 root - INFO - Cross validating different models and logging F1 score for resampled data
+[ 2024-03-13 22:23:15,665 ] 72 root - INFO - Making predictions and calculating metrics for resampled data
+[ 2024-03-13 22:23:15,681 ] 82 root - INFO - Logging model and metrics
+[ 2024-03-13 22:23:16,867 ] 88 root - INFO - Saving the prediction object
+[ 2024-03-13 22:23:16,867 ] 68 root - INFO - Cross validating different models and logging F1 score for resampled data
+[ 2024-03-13 22:23:19,761 ] 72 root - INFO - Making predictions and calculating metrics for resampled data
+[ 2024-03-13 22:23:20,087 ] 82 root - INFO - Logging model and metrics
+[ 2024-03-13 22:23:21,304 ] 88 root - INFO - Saving the prediction object
+[ 2024-03-13 22:23:21,305 ] 68 root - INFO - Cross validating different models and logging F1 score for resampled data
+[ 2024-03-13 22:23:22,628 ] 72 root - INFO - Making predictions and calculating metrics for resampled data
+[ 2024-03-13 22:23:22,766 ] 82 root - INFO - Logging model and metrics
+[ 2024-03-13 22:23:23,887 ] 88 root - INFO - Saving the prediction object
+[ 2024-03-13 22:23:23,887 ] 130 root - INFO - Extracting model with highest recall
+[ 2024-03-13 22:23:23,887 ] 134 root - INFO - Saving the best model trained on resampled data
+[ 2024-03-13 22:23:23,902 ] 143 root - INFO - Execution of all the models begin
+[ 2024-03-13 22:23:23,902 ] 97 root - INFO - Cross validating different models and logging F1 score for imbalanced data
+[ 2024-03-13 22:23:23,939 ] 121 root - INFO - Error in cross validation at: 
+All the 10 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+9 fits failed with the following error:
+Traceback (most recent call last):
+  File "/Users/siddhant/Project2/rating/lib/python3.11/site-packages/sklearn/model_selection/_validation.py", line 895, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/siddhant/Project2/rating/lib/python3.11/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddhant/Project2/rating/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py", line 1201, in fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddhant/Project2/rating/lib/python3.11/site-packages/sklearn/base.py", line 650, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddhant/Project2/rating/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1263, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/Users/siddhant/Project2/rating/lib/python3.11/site-packages/sklearn/utils/validation.py", line 997, in check_array
+    array = _asarray_with_order(array, order=order, dtype=dtype, xp=xp)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddhant/Project2/rating/lib/python3.11/site-packages/sklearn/utils/_array_api.py", line 521, in _asarray_with_order
+    array = numpy.asarray(array, order=order, dtype=dtype)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddhant/Project2/rating/lib/python3.11/site-packages/pandas/core/generic.py", line 2150, in __array__
+    arr = np.asarray(values, dtype=dtype)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'France'
+
+--------------------------------------------------------------------------------
+1 fits failed with the following error:
+Traceback (most recent call last):
+  File "/Users/siddhant/Project2/rating/lib/python3.11/site-packages/sklearn/model_selection/_validation.py", line 895, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/siddhant/Project2/rating/lib/python3.11/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddhant/Project2/rating/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py", line 1201, in fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddhant/Project2/rating/lib/python3.11/site-packages/sklearn/base.py", line 650, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddhant/Project2/rating/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1263, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/Users/siddhant/Project2/rating/lib/python3.11/site-packages/sklearn/utils/validation.py", line 997, in check_array
+    array = _asarray_with_order(array, order=order, dtype=dtype, xp=xp)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddhant/Project2/rating/lib/python3.11/site-packages/sklearn/utils/_array_api.py", line 521, in _asarray_with_order
+    array = numpy.asarray(array, order=order, dtype=dtype)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddhant/Project2/rating/lib/python3.11/site-packages/pandas/core/generic.py", line 2150, in __array__
+    arr = np.asarray(values, dtype=dtype)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'Germany'
+
+[ 2024-03-13 22:23:23,939 ] 155 root - INFO - Error in execution at: Error occured in python script name [/Users/siddhant/Project2/Bank_functions/src/models/train_model3.py] line number [99] error message[
+All the 10 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+9 fits failed with the following error:
+Traceback (most recent call last):
+  File "/Users/siddhant/Project2/rating/lib/python3.11/site-packages/sklearn/model_selection/_validation.py", line 895, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/siddhant/Project2/rating/lib/python3.11/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddhant/Project2/rating/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py", line 1201, in fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddhant/Project2/rating/lib/python3.11/site-packages/sklearn/base.py", line 650, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddhant/Project2/rating/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1263, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/Users/siddhant/Project2/rating/lib/python3.11/site-packages/sklearn/utils/validation.py", line 997, in check_array
+    array = _asarray_with_order(array, order=order, dtype=dtype, xp=xp)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddhant/Project2/rating/lib/python3.11/site-packages/sklearn/utils/_array_api.py", line 521, in _asarray_with_order
+    array = numpy.asarray(array, order=order, dtype=dtype)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddhant/Project2/rating/lib/python3.11/site-packages/pandas/core/generic.py", line 2150, in __array__
+    arr = np.asarray(values, dtype=dtype)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'France'
+
+--------------------------------------------------------------------------------
+1 fits failed with the following error:
+Traceback (most recent call last):
+  File "/Users/siddhant/Project2/rating/lib/python3.11/site-packages/sklearn/model_selection/_validation.py", line 895, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/siddhant/Project2/rating/lib/python3.11/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddhant/Project2/rating/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py", line 1201, in fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddhant/Project2/rating/lib/python3.11/site-packages/sklearn/base.py", line 650, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddhant/Project2/rating/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1263, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/Users/siddhant/Project2/rating/lib/python3.11/site-packages/sklearn/utils/validation.py", line 997, in check_array
+    array = _asarray_with_order(array, order=order, dtype=dtype, xp=xp)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddhant/Project2/rating/lib/python3.11/site-packages/sklearn/utils/_array_api.py", line 521, in _asarray_with_order
+    array = numpy.asarray(array, order=order, dtype=dtype)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddhant/Project2/rating/lib/python3.11/site-packages/pandas/core/generic.py", line 2150, in __array__
+    arr = np.asarray(values, dtype=dtype)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'Germany'
+]

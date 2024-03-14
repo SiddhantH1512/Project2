@@ -1,0 +1,15 @@
+[ 2024-03-13 22:20:23,975 ] 32 root - INFO - Clean process started
+[ 2024-03-13 22:20:23,975 ] 33 root - INFO - Dropping columns
+[ 2024-03-13 22:20:23,978 ] 35 root - INFO - Data Splitting
+[ 2024-03-13 22:20:23,978 ] 39 root - INFO - Clean process completed
+[ 2024-03-13 22:20:23,978 ] 32 root - INFO - Clean process started
+[ 2024-03-13 22:20:23,978 ] 33 root - INFO - Dropping columns
+[ 2024-03-13 22:20:23,979 ] 35 root - INFO - Data Splitting
+[ 2024-03-13 22:20:23,979 ] 39 root - INFO - Clean process completed
+[ 2024-03-13 22:20:23,979 ] 106 root - INFO - Orchestrate all the runs
+[ 2024-03-13 22:20:23,979 ] 68 root - INFO - Data transformation process begins
+[ 2024-03-13 22:20:23,979 ] 70 root - INFO - Resampling the imbalanced data
+[ 2024-03-13 22:20:25,222 ] 74 root - INFO - Applying column transformer of resampled train data, imbalanced train and test data
+[ 2024-03-13 22:20:25,223 ] 51 root - INFO - Creating a column transformer
+[ 2024-03-13 22:20:25,240 ] 83 root - INFO - Data transformation process complete
+[ 2024-03-13 22:20:25,241 ] 92 root - INFO - Saving files

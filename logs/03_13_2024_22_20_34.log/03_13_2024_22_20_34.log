@@ -1,0 +1,8 @@
+[ 2024-03-13 22:20:35,638 ] 51 root - INFO - Loading required files in dataframes
+[ 2024-03-13 22:20:35,661 ] 59 root - INFO - Load coplete
+[ 2024-03-13 22:20:35,661 ] 126 root - INFO - Execution of all the models begin
+[ 2024-03-13 22:20:35,661 ] 68 root - INFO - Cross validating different models and logging F1 score for resampled data
+[ 2024-03-13 22:20:35,817 ] 72 root - INFO - Making predictions and calculating metrics for resampled data
+[ 2024-03-13 22:20:35,902 ] 82 root - INFO - Logging model and metrics
+[ 2024-03-13 22:20:35,902 ] 92 root - INFO - Error in cross validation at: Failed to convert metric value to float: can only convert an array of size 1 to a Python scalar
+[ 2024-03-13 22:20:35,903 ] 138 root - INFO - Error in execution at: Error occured in python script name [/Users/siddhant/Project2/Bank_functions/src/models/train_model3.py] line number [83] error message[Failed to convert metric value to float: can only convert an array of size 1 to a Python scalar]

@@ -98,7 +98,7 @@ class ModelBuild:
             for model_name, model in self.model_dict.items():
                 self.model_scorer(model_name, model) 
             
-            logging.info('Extracting model with highets recall')
+            logging.info('Extracting model with highest recall')
             best_model_perform = max(self.model_performance, key=self.model_performance.get)
             best_model = self.models[best_model_perform] 
             

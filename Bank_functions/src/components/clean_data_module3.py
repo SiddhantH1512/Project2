@@ -31,8 +31,7 @@ class DataTransform:
         try:
             logging.info('Clean process started')
             logging.info('Dropping columns')
-            dataframe.drop(columns='RowNumber', inplace=True)
-            
+            dataframe.drop(columns=['RowNumber', 'CustomerId', 'Surname', 'Complain'], inplace=True)
             logging.info('Data Splitting')
             X = dataframe.drop(columns='Exited')
             y = dataframe['Exited']        
@@ -82,7 +81,7 @@ class DataTransform:
             transformed_Xtest = transformer.transform(self.testX)
             
             logging.info('Data transformation process complete')
-            return transformed_Xtrain, Y_resampled3, transformed_Xtest
+            return transformed_Xtrain, transformed_Xtrain_im, Y_resampled3, transformed_Xtest
             
         except Exception as e:
             logging.info(f'Error occured in transforming the data at {e}')
@@ -105,8 +104,8 @@ class DataTransform:
     def orchestrate(self):
         try:
             logging.info('Orchestrate all the runs')
-            transformed_Xtrain, Y_resampled3, transformed_Xtest = self.initialise_transform()
-            self.save_files(transformed_Xtrain, Y_resampled3, transformed_Xtest, self.testY, self.trainX, self.trainY)
+            transformed_Xtrain, transformed_Xtrain_im, Y_resampled3, transformed_Xtest = self.initialise_transform()
+            self.save_files(transformed_Xtrain, Y_resampled3, transformed_Xtest, self.testY, transformed_Xtrain_im, self.trainY)
         
         except Exception as e:
             logging.info(f'Error occured in orchestrating the methods at {e}')
@@ -121,4 +120,4 @@ if __name__ == '__main__':
     
     except Exception as e:
             logging.info(f'Error {e}')
-            raise CustomException(e, sys)
+            raise CustomException(e, sys) 
