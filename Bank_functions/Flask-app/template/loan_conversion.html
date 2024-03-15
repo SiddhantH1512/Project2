@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Conversion Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 class="page-title">🏦 Loan Conversion Prediction 🚀</h1>
+        </header>
+        <form method="post">
+            <label for="age">Age:</label>
+            <input type="text" id="age" name="Age"><br>
+
+            <label for="income">Income (in thousands):</label>
+            <input type="text" id="income" name="Income"><br>
+
+            <label for="family">Family members:</label>
+            <input type="text" id="family" name="Family"><br>
+
+            <label for="ccavg">Avg. CC spending (in thousands):</label>
+            <input type="text" id="ccavg" name="Credit Card usage (annual in thousand)"><br>
+
+            <label for="education">Education (1: bachelor's, 2: master's, 3: advanced):</label>
+            <input type="text" id="education" name="Education"><br>
+
+            <label for="cd_account">CD Account (0: no, 1: yes):</label>
+            <input type="text" id="cd_account" name="Certificate of Deposit account"><br>
+
+            <input type="submit" value="Predict">
+        </form>
+        {% if prediction %}
+        <div class="prediction-result">
+            Prediction: The customer is {{ prediction }} to take a loan.
+        </div>
+        {% endif %}
+    </div>
+</body>
+
+</html>

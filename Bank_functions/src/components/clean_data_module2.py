@@ -7,6 +7,7 @@ import numpy as np
 from sklearn.preprocessing import StandardScaler
 from imblearn.over_sampling import SMOTEN
 from dataclasses import dataclass
+from utils import save_obj
 import os
 
 @dataclass
@@ -15,6 +16,7 @@ class DataTransformconfig:
     scaled_X_test = os.path.join('/Users/siddhant/Project2/Bank_functions/data/artifacts_module2', 'scaled_testX.csv')
     resampled_y = os.path.join('/Users/siddhant/Project2/Bank_functions/data/artifacts_module2', 'resampled_Y.csv')
     orig_y_test = os.path.join('/Users/siddhant/Project2/Bank_functions/data/artifacts_module2', 'y_test_orig.csv')
+    transformer_object = os.path.join('/Users/siddhant/Project2/Bank_functions/src/models/transformer_objects', 'module2_scaler.pkl')
 
 class DataTransform:
     def __init__(self, train_file_path, test_file_path):
@@ -56,18 +58,19 @@ class DataTransform:
             smote = SMOTEN(sampling_strategy='auto', random_state=42)
             resampled_Xtrain2, resampled_Ytrain2 = smote.fit_resample(self.train_X2, self.train_Y2)
             
+            logging.info('Dropping low importance columns')
+            resampled_Xtrain2.drop(columns=['ZIP Code', 'Mortgage', 'Securities Account', 'Online', 'CreditCard'], inplace=True)
+            self.test_X2.drop(columns=['ZIP Code', 'Mortgage', 'Securities Account', 'Online', 'CreditCard'], inplace=True)
+            
             logging.info('Scaling the data')
             scaler = StandardScaler()
             scaler.set_output(transform='pandas')
             scaled_Xtrain2 = scaler.fit_transform(resampled_Xtrain2)
             scaled_Xtest2 = scaler.transform(self.test_X2)
             
-            logging.info('Dropping low importance columns')
-            scaled_Xtrain2.drop(columns=['Mortgage', 'Securities Account', 'Online', 'CreditCard'], inplace=True)
-            scaled_Xtest2.drop(columns=['Mortgage', 'Securities Account', 'Online', 'CreditCard'], inplace=True)
-            
             self.save_files(scaled_Xtrain2, resampled_Ytrain2, scaled_Xtest2, self.test_Y2)
-        
+            save_obj(self.dataconfig.transformer_object, scaler)
+            
         except Exception as e:
             logging.info(f'Error occured in data transformation at: {e}')
             raise CustomException(e, sys) 

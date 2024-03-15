@@ -20,7 +20,7 @@ warnings.filterwarnings('ignore')
 
 @dataclass
 class ModelBuildConfig:
-    model: str=os.path.join('/Users/siddhant/Project2/Bank_functions/src/models/trained_models', 'model.pkl')
+    model: str=os.path.join('/Users/siddhant/Project2/Bank_functions/src/models/trained_models', 'final_model_module1.pkl')
     
 class ModelBuild:
     def __init__(self, Xtrain_resampled_path, ytrain_resampled_path, Xtest_im_path, ytest_im_path):
@@ -31,8 +31,6 @@ class ModelBuild:
         self.Y_test = pd.read_csv(ytest_im_path)
         logging.info(f"Xtrain_resample shape: {self.Xtrain_resample.shape}")
         logging.info(f"Ytrain_resample shape: {self.Ytrain_resample.shape}")
-
-
         
         self.xgb_space = {
             'learning_rate': hp.uniform('learning_rate', 0.01, 0.2),

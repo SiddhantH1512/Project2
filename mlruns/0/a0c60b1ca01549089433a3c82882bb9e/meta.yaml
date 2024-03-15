@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/siddhant/Project2/mlruns/0/a0c60b1ca01549089433a3c82882bb9e/artifacts
+end_time: 1710470931487
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a0c60b1ca01549089433a3c82882bb9e
+run_name: decision tree
+run_uuid: a0c60b1ca01549089433a3c82882bb9e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710470930319
+status: 3
+tags: []
+user_id: siddhant

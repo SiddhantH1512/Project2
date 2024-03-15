@@ -1,0 +1,60 @@
+[ 2024-03-14 21:48:45,365 ] 47 root - INFO - Loading required files in dataframes
+[ 2024-03-14 21:48:45,372 ] 97 root - INFO - Execution
+[ 2024-03-14 21:48:45,372 ] 62 root - INFO - Cross validating different models and logging F1 score
+[ 2024-03-14 21:48:45,459 ] 66 root - INFO - Training model
+[ 2024-03-14 21:48:45,462 ] 69 root - INFO - Making predictions
+[ 2024-03-14 21:48:45,462 ] 72 root - INFO - Metric evaluation
+[ 2024-03-14 21:48:45,465 ] 76 root - INFO - Storing model performances
+[ 2024-03-14 21:48:45,465 ] 79 root - INFO - Storing models
+[ 2024-03-14 21:48:45,742 ] 83 root - INFO - Logging model using mlflow
+[ 2024-03-14 21:48:47,524 ] 86 root - INFO - Logging metrics
+[ 2024-03-14 21:48:47,526 ] 62 root - INFO - Cross validating different models and logging F1 score
+[ 2024-03-14 21:48:48,895 ] 66 root - INFO - Training model
+[ 2024-03-14 21:48:49,025 ] 69 root - INFO - Making predictions
+[ 2024-03-14 21:48:49,063 ] 72 root - INFO - Metric evaluation
+[ 2024-03-14 21:48:49,066 ] 76 root - INFO - Storing model performances
+[ 2024-03-14 21:48:49,066 ] 79 root - INFO - Storing models
+[ 2024-03-14 21:48:49,071 ] 83 root - INFO - Logging model using mlflow
+[ 2024-03-14 21:48:50,242 ] 86 root - INFO - Logging metrics
+[ 2024-03-14 21:48:50,244 ] 62 root - INFO - Cross validating different models and logging F1 score
+[ 2024-03-14 21:48:50,311 ] 66 root - INFO - Training model
+[ 2024-03-14 21:48:50,316 ] 69 root - INFO - Making predictions
+[ 2024-03-14 21:48:50,316 ] 72 root - INFO - Metric evaluation
+[ 2024-03-14 21:48:50,318 ] 76 root - INFO - Storing model performances
+[ 2024-03-14 21:48:50,318 ] 79 root - INFO - Storing models
+[ 2024-03-14 21:48:50,323 ] 83 root - INFO - Logging model using mlflow
+[ 2024-03-14 21:48:51,485 ] 86 root - INFO - Logging metrics
+[ 2024-03-14 21:48:51,487 ] 62 root - INFO - Cross validating different models and logging F1 score
+[ 2024-03-14 21:48:53,353 ] 66 root - INFO - Training model
+[ 2024-03-14 21:48:53,543 ] 69 root - INFO - Making predictions
+[ 2024-03-14 21:48:53,548 ] 72 root - INFO - Metric evaluation
+[ 2024-03-14 21:48:53,551 ] 76 root - INFO - Storing model performances
+[ 2024-03-14 21:48:53,551 ] 79 root - INFO - Storing models
+[ 2024-03-14 21:48:53,556 ] 83 root - INFO - Logging model using mlflow
+[ 2024-03-14 21:48:54,782 ] 86 root - INFO - Logging metrics
+[ 2024-03-14 21:48:54,785 ] 62 root - INFO - Cross validating different models and logging F1 score
+[ 2024-03-14 21:48:54,825 ] 66 root - INFO - Training model
+[ 2024-03-14 21:48:54,827 ] 69 root - INFO - Making predictions
+[ 2024-03-14 21:48:54,827 ] 72 root - INFO - Metric evaluation
+[ 2024-03-14 21:48:54,830 ] 76 root - INFO - Storing model performances
+[ 2024-03-14 21:48:54,830 ] 79 root - INFO - Storing models
+[ 2024-03-14 21:48:54,834 ] 83 root - INFO - Logging model using mlflow
+[ 2024-03-14 21:48:56,034 ] 86 root - INFO - Logging metrics
+[ 2024-03-14 21:48:56,036 ] 62 root - INFO - Cross validating different models and logging F1 score
+[ 2024-03-14 21:48:56,956 ] 66 root - INFO - Training model
+[ 2024-03-14 21:48:57,053 ] 69 root - INFO - Making predictions
+[ 2024-03-14 21:48:57,056 ] 72 root - INFO - Metric evaluation
+[ 2024-03-14 21:48:57,059 ] 76 root - INFO - Storing model performances
+[ 2024-03-14 21:48:57,059 ] 79 root - INFO - Storing models
+[ 2024-03-14 21:48:57,063 ] 83 root - INFO - Logging model using mlflow
+[ 2024-03-14 21:48:58,312 ] 86 root - INFO - Logging metrics
+[ 2024-03-14 21:48:58,314 ] 62 root - INFO - Cross validating different models and logging F1 score
+[ 2024-03-14 21:48:59,284 ] 66 root - INFO - Training model
+[ 2024-03-14 21:48:59,373 ] 69 root - INFO - Making predictions
+[ 2024-03-14 21:48:59,375 ] 72 root - INFO - Metric evaluation
+[ 2024-03-14 21:48:59,377 ] 76 root - INFO - Storing model performances
+[ 2024-03-14 21:48:59,377 ] 79 root - INFO - Storing models
+[ 2024-03-14 21:48:59,382 ] 83 root - INFO - Logging model using mlflow
+[ 2024-03-14 21:49:00,541 ] 86 root - INFO - Logging metrics
+[ 2024-03-14 21:49:00,543 ] 101 root - INFO - Extracting model with highest recall
+[ 2024-03-14 21:49:00,543 ] 105 root - INFO - Saving the model

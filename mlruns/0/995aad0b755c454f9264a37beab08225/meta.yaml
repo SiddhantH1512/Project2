@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/siddhant/Project2/mlruns/0/995aad0b755c454f9264a37beab08225/artifacts
+end_time: 1710471192594
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 995aad0b755c454f9264a37beab08225
+run_name: Main_Model_XGB
+run_uuid: 995aad0b755c454f9264a37beab08225
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710471190851
+status: 3
+tags: []
+user_id: siddhant

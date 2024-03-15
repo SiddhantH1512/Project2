@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/siddhant/Project2/mlruns/0/d683e78b16f14a37a6c3c850a271b775/artifacts
+end_time: 1710474871350
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d683e78b16f14a37a6c3c850a271b775
+run_name: gaudy-seal-216
+run_uuid: d683e78b16f14a37a6c3c850a271b775
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710472888351
+status: 3
+tags: []
+user_id: siddhant

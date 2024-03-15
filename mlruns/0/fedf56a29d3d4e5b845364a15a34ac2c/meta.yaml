@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/siddhant/Project2/mlruns/0/fedf56a29d3d4e5b845364a15a34ac2c/artifacts
+end_time: 1710478303414
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fedf56a29d3d4e5b845364a15a34ac2c
+run_name: dashing-bird-859
+run_uuid: fedf56a29d3d4e5b845364a15a34ac2c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710478301706
+status: 3
+tags: []
+user_id: siddhant

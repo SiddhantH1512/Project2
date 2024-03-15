@@ -16,7 +16,7 @@ import os
 
 @dataclass
 class DataTransformConfig:
-    preprocessor_object_train = os.path.join("/Users/siddhant/Project2/Bank_functions", "transformer.pkl")
+    preprocessor_object_train = os.path.join("/Users/siddhant/Project2/Bank_functions/src/models/transformer_objects", "transformer_module1.pkl")
     X_train_transformed = os.path.join("/Users/siddhant/Project2/Bank_functions/data/artifacts_module1", "X_train_transformed.csv")
     X_train_transformed_im = os.path.join("/Users/siddhant/Project2/Bank_functions/data/artifacts_module1", "X_train_transformed_im.csv")
     X_test_transformed = os.path.join("/Users/siddhant/Project2/Bank_functions/data/artifacts_module1", "X_test_transformed.csv")

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fraud Transaction Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 class="page-title">🕵️ Fraud Transaction Detection 🔍</h1>
+        </header>
+        <form method="post">
+            <label for="step">Hours since start:</label>
+            <input type="number" id="step" name="step" placeholder="Enter hours (0-744)" min="0" max="744"><br>
+
+            <select id="type_trans" name="type">
+                <option value="CASH_IN">CASH-IN</option> <!-- Changed value to CASH_IN -->
+                <option value="CASH_OUT">CASH-OUT</option>
+                <option value="DEBIT">DEBIT</option>
+                <option value="PAYMENT">PAYMENT</option>
+                <option value="TRANSFER">TRANSFER</option>
+            </select><br>
+
+            <label for="amount">Transaction Amount:</label>
+            <input type="number" id="amount" name="amount" placeholder="Enter amount in currency" step="any"><br>
+
+            <label for="flagged">Is Flagged Fraud:</label>
+            <select id="flagged" name="isFlaggedFraud">
+                <option value="0">No</option>
+                <option value="1">Yes</option>
+            </select><br>
+
+            <label for="balance_change">Original Balance Changed:</label>
+            <select id="balance_change" name="org_balance_change">
+                <option value="0">No change</option>
+                <option value="1">Changed</option>
+            </select><br>
+
+            <label for="receiver_bal">Receiver's Balance Change:</label>
+            <input type="number" id="receiver_bal" name="dest_balance" placeholder="Enter balance change amount"><br>
+
+            <label for="receiver_bal_change">Receiver's Balance Changed:</label>
+            <select id="receiver_bal_change" name="dest_balance_change">
+                <option value="0">No change</option>
+                <option value="1">Changed</option>
+            </select><br>
+
+            <input type="submit" value="Detect">
+        </form>
+        {% if prediction2 %}
+        <div class="prediction-result">
+            Prediction: {{ prediction2 }}
+        </div>
+        {% else %}
+        <div class="prediction-result">
+            No prediction available.
+        </div>
+        {% endif %}
+
+        {% if error %}
+        <div class="error-message">{{ error }}</div>
+        {% endif %}
+    </div>
+</body>
+
+</html>

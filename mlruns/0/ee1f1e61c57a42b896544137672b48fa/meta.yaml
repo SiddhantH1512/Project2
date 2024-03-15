@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/siddhant/Project2/mlruns/0/ee1f1e61c57a42b896544137672b48fa/artifacts
+end_time: 1710470940543
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ee1f1e61c57a42b896544137672b48fa
+run_name: xgboost
+run_uuid: ee1f1e61c57a42b896544137672b48fa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710470939378
+status: 3
+tags: []
+user_id: siddhant

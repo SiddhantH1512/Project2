@@ -1,0 +1,13 @@
+[ 2024-03-14 21:48:17,770 ] 90 root - INFO - Running the script
+[ 2024-03-14 21:48:17,774 ] 31 root - INFO - deleting unwanted Column from train and test
+[ 2024-03-14 21:48:17,775 ] 34 root - INFO - Column cleanup
+[ 2024-03-14 21:48:17,775 ] 38 root - INFO - Setting upper limit to catch outliers
+[ 2024-03-14 21:48:17,775 ] 41 root - INFO - Removing outlier
+[ 2024-03-14 21:48:17,776 ] 45 root - INFO - Splitting input and target variables
+[ 2024-03-14 21:48:17,776 ] 31 root - INFO - deleting unwanted Column from train and test
+[ 2024-03-14 21:48:17,777 ] 34 root - INFO - Column cleanup
+[ 2024-03-14 21:48:17,777 ] 45 root - INFO - Splitting input and target variables
+[ 2024-03-14 21:48:17,777 ] 57 root - INFO - Resampling the data
+[ 2024-03-14 21:48:18,181 ] 61 root - INFO - Dropping low importance columns
+[ 2024-03-14 21:48:18,181 ] 65 root - INFO - Scaling the data
+[ 2024-03-14 21:48:18,183 ] 79 root - INFO - Saving files

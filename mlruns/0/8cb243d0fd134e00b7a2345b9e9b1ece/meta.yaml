@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/siddhant/Project2/mlruns/0/8cb243d0fd134e00b7a2345b9e9b1ece/artifacts
+end_time: 1710478229051
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8cb243d0fd134e00b7a2345b9e9b1ece
+run_name: rare-hog-223
+run_uuid: 8cb243d0fd134e00b7a2345b9e9b1ece
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710474871352
+status: 3
+tags: []
+user_id: siddhant
