@@ -36,7 +36,7 @@ jobs:
   deploy-to-ec2:
     name: Deploy to EC2
     needs: build-and-push-ecr
-    runs-on: [self-hosted, bankec2]
+    runs-on: self-hosted
 
     steps:
       - name: Checkout repository
