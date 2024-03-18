@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Churn Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 class="page-title">🔄 Customer Churn Prediction 🔄</h1>
+        </header>
+        <form method="post">
+            <label for="CreditScore">Credit Score:</label>
+            <input type="number" id="CreditScore" name="CreditScore" placeholder="Enter credit score" required><br>
+
+            <label for="Geography">Region:</label>
+            <select id="Geography" name="Geography" required>
+                <option value="France">France</option>
+                <option value="Spain">Spain</option>
+                <option value="Germany">Germany</option>
+            </select><br>
+
+            <label for="Gender">Gender:</label>
+            <select id="Gender" name="Gender" required>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select><br>
+
+            <label for="Age">Age:</label>
+            <input type="number" id="Age" name="Age" placeholder="Enter age" required><br>
+
+            <label for="Tenure">Tenure:</label>
+            <input type="number" id="Tenure" name="Tenure" placeholder="Enter tenure" required><br>
+
+            <label for="Balance">Bank Balance:</label>
+            <input type="number" id="Balance" name="Balance" placeholder="Enter bank balance" step="any" required><br>
+
+            <label for="NumOfProducts">Number of Products:</label>
+            <input type="number" id="NumOfProducts" name="NumOfProducts" placeholder="Enter number of products"
+                required><br>
+
+            <label for="HasCrCard">Credit Card Possession:</label>
+            <select id="HasCrCard" name="HasCrCard" required>
+                <option value="0">No</option>
+                <option value="1">Yes</option>
+            </select><br>
+
+            <label for="IsActiveMember">Active Member:</label>
+            <select id="IsActiveMember" name="IsActiveMember" required>
+                <option value="0">No</option>
+                <option value="1">Yes</option>
+            </select><br>
+
+            <label for="EstimatedSalary">Estimated Salary:</label>
+            <input type="number" id="EstimatedSalary" name="EstimatedSalary" placeholder="Enter estimated salary"
+                step="any" required><br>
+
+            <label for="Satisfaction Score">Satisfaction Score:</label>
+            <input type="number" id="SatisfactionScore" name="Satisfaction Score" placeholder="Enter satisfaction score"
+                required><br>
+
+            <label for="Card Type">Type of Card:</label>
+            <select id="CardType" name="Card Type" required>
+                <option value="DIAMOND">Diamond</option>
+                <option value="GOLD">Gold</option>
+                <option value="SILVER">Silver</option>
+                <option value="PLATINUM">Platinum</option>
+            </select><br>
+
+            <label for="Point Earned">Points Earned:</label>
+            <input type="number" id="PointEarned" name="Point Earned" placeholder="Enter points earned" required><br>
+
+            <input type="submit" value="Predict">
+        </form>
+
+        {% if prediction3 %}
+        <div class="prediction-result">
+            Prediction: {{ prediction3 }}
+        </div>
+        {% endif %}
+
+        {% if error %}
+        <div class="error-message">{{ error }}</div>
+        {% endif %}
+    </div>
+</body>
+
+</html>

@@ -9,73 +9,86 @@ body,
 html {
     height: 100%;
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
+    background: url('/static/images/bank.jpeg') no-repeat center center fixed;
+    background-size: cover;
     color: #333;
     line-height: 1.6;
 }
 
+/* Styling for the main container that holds your content */
 .container {
-    max-width: 500px;
-    margin: 50px auto;
+    max-width: 800px;
+    margin: 30px auto;
     padding: 20px;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.9);
+    /* Semi-transparent background */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 header {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     text-align: center;
 }
 
 .page-title {
-    font-size: 28px;
+    font-size: 2.5rem;
     color: #333;
+    margin-bottom: 20px;
 }
 
-form {
+/* Welcome description style */
+.welcome-description {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Style for navigation tabs */
+.nav-tabs {
     display: flex;
-    flex-direction: column;
-    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
 }
 
-form label {
-    font-weight: bold;
-    margin-bottom: 5px;
-    color: #444;
-}
-
-input[type="text"],
-input[type="number"] {
-    padding: 10px;
-    border-radius: 4px;
-    border: 1px solid #ccc;
-    font-size: 16px;
-}
-
-input[type="submit"] {
-    padding: 10px 20px;
-    background-color: #5cb85c;
+.nav-tab {
+    background: #007bff;
+    /* Bootstrap primary color */
     color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
 }
 
-input[type="submit"]:hover {
-    background-color: #4cae4c;
+.nav-tab:hover {
+    background: #0056b3;
+    /* A darker blue for hover state */
+    transform: translateY(-3px);
+    /* Slight lift effect on hover */
 }
 
-.prediction-result {
-    font-size: 20px;
-    color: #333;
+.prediction-result,
+.error-message {
+    font-size: 1.2rem;
     text-align: center;
     margin-top: 20px;
     border: 1px solid #ccc;
-    padding: 10px;
-    border-radius: 4px;
-    background: #e7ffe7;
-    /* Light green background for the result area */
+    padding: 20px;
+    border-radius: 5px;
 }
+
+.prediction-result {
+    background: #e7ffe7;
+    /* Light green background for the result */
+}
+
+.error-message {
+    background: #ffdede;
+    /* Light red background for errors */
+}
+
+/* Additional styling can go here */

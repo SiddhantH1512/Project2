@@ -4,6 +4,7 @@ from logger import logging
 from exceptions import CustomException
 import pandas as pd
 import numpy as np 
+from utils import save_obj
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.compose import ColumnTransformer
 from imblearn.over_sampling import SMOTEN
@@ -18,7 +19,8 @@ class CleanDataConfig:
     Y_orig_test: str=os.path.join('/Users/siddhant/Project2/Bank_functions/data/artifacts_module3', 'Y_imbalanced_test.csv')
     Xtrain_transformed_im: str=os.path.join('/Users/siddhant/Project2/Bank_functions/data/artifacts_module3', 'transformed_im_Xtrain.csv')
     Y_orig_train: str=os.path.join('/Users/siddhant/Project2/Bank_functions/data/artifacts_module3', 'Y_imbalanced_train.csv')
-
+    transformer: str=os.path.join('/Users/siddhant/Project2/Bank_functions/src/models/transformer_objects', 'transformer_module3.pkl')
+    
 class DataTransform:
     def __init__(self, train_path, test_path):
         self.cleandata = CleanDataConfig()
@@ -79,6 +81,9 @@ class DataTransform:
             transformed_Xtrain = transformer.transform(X_resampled3)
             transformed_Xtrain_im = transformer.transform(self.trainX)
             transformed_Xtest = transformer.transform(self.testX)
+            
+            logging.info('Saving transformer')
+            save_obj(self.cleandata.transformer, transformer)
             
             logging.info('Data transformation process complete')
             return transformed_Xtrain, transformed_Xtrain_im, Y_resampled3, transformed_Xtest

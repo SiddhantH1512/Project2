@@ -5,16 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bank Project Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 
 <body>
-    <h1>Welcome to the Bank Project</h1>
-    <p>Select a module to proceed:</p>
-    <ul>
-        <li><a href="/loan_conversion">Loan Conversion Module</a></li>
-        <li><a href="/fraud_classification">Fraud Classification Module</a></li>
-        <li><a href="/customer_churn">Customer Churn Module</a></li>
-    </ul>
+    <div class="container">
+        <h1>Welcome to the Bank's Analytical Dashboard</h1>
+        <p>This platform is designed to assist banking professionals in making informed decisions by leveraging
+            predictive analytics. Explore our modules to determine the likelihood of loan conversions, identify
+            potential fraudulent transactions, and predict customer retention. These tools aim to enhance operational
+            efficiency and risk management within your banking environment.</p>
+        <div class="module-links">
+            <a href="/loan_conversion" class="module-link">Loan Conversion Module</a>
+            <a href="/fraud_classification" class="module-link">Fraud Classification Module</a>
+            <a href="/customer_churn" class="module-link">Customer Churn Module</a>
+        </div>
+    </div>
 </body>
 
 </html>

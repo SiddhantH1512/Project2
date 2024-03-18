@@ -1,0 +1,17 @@
+[ 2024-03-15 16:43:06,605 ] 33 root - INFO - Clean process started
+[ 2024-03-15 16:43:06,606 ] 34 root - INFO - Dropping columns
+[ 2024-03-15 16:43:06,608 ] 36 root - INFO - Data Splitting
+[ 2024-03-15 16:43:06,609 ] 40 root - INFO - Clean process completed
+[ 2024-03-15 16:43:06,609 ] 33 root - INFO - Clean process started
+[ 2024-03-15 16:43:06,609 ] 34 root - INFO - Dropping columns
+[ 2024-03-15 16:43:06,609 ] 36 root - INFO - Data Splitting
+[ 2024-03-15 16:43:06,609 ] 40 root - INFO - Clean process completed
+[ 2024-03-15 16:43:06,609 ] 110 root - INFO - Orchestrate all the runs
+[ 2024-03-15 16:43:06,609 ] 69 root - INFO - Data transformation process begins
+[ 2024-03-15 16:43:06,609 ] 71 root - INFO - Resampling the imbalanced data
+[ 2024-03-15 16:43:07,834 ] 75 root - INFO - Applying column transformer of resampled train data, imbalanced train and test data
+[ 2024-03-15 16:43:07,834 ] 52 root - INFO - Creating a column transformer
+[ 2024-03-15 16:43:07,853 ] 84 root - INFO - Saving transformer
+[ 2024-03-15 16:43:07,853 ] 91 root - INFO - Error occured in transforming the data at Error occured in python script name [/Users/siddhant/Project2/Bank_functions/utils.py] line number [9] error message[[Errno 21] Is a directory: '/Users/siddhant/Project2/Bank_functions/src/models/transformer_objects']
+[ 2024-03-15 16:43:07,853 ] 115 root - INFO - Error occured in orchestrating the methods at Error occured in python script name [/Users/siddhant/Project2/Bank_functions/src/components/clean_data_module3.py] line number [85] error message[Error occured in python script name [/Users/siddhant/Project2/Bank_functions/utils.py] line number [9] error message[[Errno 21] Is a directory: '/Users/siddhant/Project2/Bank_functions/src/models/transformer_objects']]
+[ 2024-03-15 16:43:07,853 ] 126 root - INFO - Error Error occured in python script name [/Users/siddhant/Project2/Bank_functions/src/components/clean_data_module3.py] line number [111] error message[Error occured in python script name [/Users/siddhant/Project2/Bank_functions/src/components/clean_data_module3.py] line number [85] error message[Error occured in python script name [/Users/siddhant/Project2/Bank_functions/utils.py] line number [9] error message[[Errno 21] Is a directory: '/Users/siddhant/Project2/Bank_functions/src/models/transformer_objects']]]
