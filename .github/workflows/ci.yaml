@@ -62,4 +62,4 @@ jobs:
 
       - name: Run new container
         run: |
-          docker run -d --name my-app -p 80:80 ${{ secrets.AWS_ECR_LOGIN_URI }}/${{ secrets.AWS_ECR_REPOSITORY_NAME }}:latest
+          docker run -d --name my-app -p 8000:8000 ${{ secrets.AWS_ECR_LOGIN_URI }}/${{ secrets.AWS_ECR_REPOSITORY_NAME }}:latest
