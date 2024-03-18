@@ -23,15 +23,15 @@ jobs:
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: ${{ secrets.AWS_REGION }}
+          aws-region: ca-central-1
 
       - name: Login to Amazon ECR
         uses: aws-actions/amazon-ecr-login@v2
 
       - name: Build, tag, and push image to Amazon ECR
         run: |
-          docker build -t ${{ secrets.AWS_ECR_LOGIN_URI }}/${{ secrets.AWS_ECR_REPOSITORY_NAME }}:latest .
-          docker push ${{ secrets.AWS_ECR_LOGIN_URI }}/${{ secrets.AWS_ECR_REPOSITORY_NAME }}:latest
+          docker build -t 975049937354.dkr.ecr.ca-central-1.amazonaws.com/banking:latest .
+          docker push 975049937354.dkr.ecr.ca-central-1.amazonaws.com/banking:latest
 
   deploy-to-ec2:
     name: Deploy to EC2
@@ -47,19 +47,13 @@ jobs:
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: ${{ secrets.AWS_REGION }}
+          aws-region: ca-central-1
 
       - name: Login to Amazon ECR
         uses: aws-actions/amazon-ecr-login@v2
 
-      - name: Pull latest image from Amazon ECR
+      - name: Pull latest image from Amazon ECR and run
         run: |
-          docker pull ${{ secrets.AWS_ECR_LOGIN_URI }}/${{ secrets.AWS_ECR_REPOSITORY_NAME }}:latest
-
-      - name: Remove previous containers
-        run: |
-          docker rm -f $(docker ps -aq) || true
-
-      - name: Run new container
-        run: |
-          docker run -d --name my-app -p 8000:8000 ${{ secrets.AWS_ECR_LOGIN_URI }}/${{ secrets.AWS_ECR_REPOSITORY_NAME }}:latest
+          docker pull 975049937354.dkr.ecr.ca-central-1.amazonaws.com/banking:latest
+          docker rm -f banking-app || true  # Replace banking-app with your container name, if different
+          docker run -d --name banking-app -p 8000:8000 975049937354.dkr.ecr.ca-central-1.amazonaws.com/banking:latest
