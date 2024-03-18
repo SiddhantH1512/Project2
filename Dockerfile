@@ -9,7 +9,7 @@ COPY ./Bank_functions/Flask-app /app
 COPY ./Bank_functions/src /app/src
 
 # Install any needed packages specified in requirements.txt
-COPY ./Bank_functions/requirements.txt /requirements.txt
+COPY ./requirements.txt /requirements.txt
 RUN pip install --trusted-host pypi.python.org -r /requirements.txt
 
 # Make port 8000 available to the world outside this container
